@@ -332,6 +332,9 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 ## 12. Compilacion y cierre
 - [ ] Actualizar indice en `manuscript/final/full_manuscript.md`.
 - [ ] Concatenar capitulos finales.
+- [ ] Definir titulo final del libro.
+- [ ] Escribir el titulo en `manuscript/final/full_manuscript.md`.
+- [ ] Renombrar la carpeta del libro en `working-books` usando minusculas y guiones.
 - [ ] Verificar consistencia global.
 - [ ] Verificar continuidad en timeline y glosario.
 - [ ] Exportar o preparar para publicacion (si aplica).
