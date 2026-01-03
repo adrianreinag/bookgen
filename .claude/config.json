@@ -1,0 +1,17 @@
+{
+  "project_name": "bookgen-template",
+  "language": "es",
+  "encoding": "ascii",
+  "paths": {
+    "bible": "bible",
+    "structure": "structure",
+    "drafts": "manuscript/drafts",
+    "final": "manuscript/final"
+  },
+  "agents": [
+    "architect",
+    "archivist",
+    "drafter",
+    "critic"
+  ]
+}
