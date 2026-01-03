@@ -3,19 +3,37 @@
 ## Tipo
 - Ciudad / Region / Edificio / Otro
 
-## Descripcion
-- TODO
+## Descripcion breve
+- 
 
-## Detalles sensoriales
-- Vista: TODO
-- Sonido: TODO
-- Olor: TODO
+## Detalle sensorial
+- Vista:
+- Sonido:
+- Olor:
+- Textura:
+- Temperatura:
 
-## Historia
-- TODO
+## Cultura superficial (visible)
+- Arquitectura:
+- Vestimenta:
+- Rituales:
+
+## Cultura profunda (invisible)
+- Valores:
+- Normas sociales:
+- Relacion con autoridad, tiempo y tecnologia:
 
 ## Reglas y limites
-- TODO
+- Leyes fisicas o magicas:
+- Restricciones de acceso:
+
+## Historia y contexto
+- Origen:
+- Eventos clave:
+
+## Conflictos potenciales
+- Tensiones internas:
+- Tensiones externas:
 
 ## Personajes vinculados
-- TODO
+- 

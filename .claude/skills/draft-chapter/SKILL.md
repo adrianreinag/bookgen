@@ -1,26 +1,27 @@
 ---
 name: draft-chapter
-description: Expand a chapter beat sheet into a prose draft.
+description: Expand a beat sheet into a prose draft.
 inputs:
-  - beats file for the chapter
+  - structure/beats/chapter_##_beats.md
   - bible/style_guide.md
+  - relevant bible/characters and bible/locations
 outputs:
-  - markdown draft chapter
+  - manuscript/drafts/chapter_##_v1.md
 ---
 
 # draft-chapter
 
 ## When to use
-- You have approved beats and need a narrative draft.
+- Beats are approved and you need a draft.
 
 ## Workflow
-1. Read the beats in `structure/beats/`.
-2. Read `bible/style_guide.md` for voice and tone.
+1. Read beats and style guide.
+2. Build a short scene list (3-6 bullets).
 3. Draft scene by scene, preserving beat order.
-4. Avoid introducing new facts not in the bible.
-5. Save to `manuscript/drafts/chapter_##_v1.md`.
+4. Apply MRU (stimulus then reaction) and deep POV.
+5. Avoid filter verbs and empty adverbs.
+6. Keep paragraphs short; vary sentence length.
+7. Record any new facts in a "New facts" section.
 
 ## Output format
-- Start with a short scene list (3-6 bullets).
-- Then write the chapter prose.
-- Keep paragraphs short for readability.
+- Title, scene list, draft text, new facts list.

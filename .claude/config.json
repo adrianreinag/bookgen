@@ -2,16 +2,24 @@
   "project_name": "bookgen-template",
   "language": "es",
   "encoding": "ascii",
+  "structure_model": "three_act",
+  "beats_model": "save_the_cat",
   "paths": {
     "bible": "bible",
     "structure": "structure",
+    "beats": "structure/beats",
     "drafts": "manuscript/drafts",
     "final": "manuscript/final"
   },
-  "agents": [
-    "architect",
-    "archivist",
-    "drafter",
-    "critic"
-  ]
+  "agents": {
+    "architect": ".claude/agents/architect.md",
+    "archivist": ".claude/agents/archivist.md",
+    "drafter": ".claude/agents/drafter.md",
+    "critic": ".claude/agents/critic.md"
+  },
+  "skills": {
+    "develop-beats": ".claude/skills/develop-beats/SKILL.md",
+    "draft-chapter": ".claude/skills/draft-chapter/SKILL.md",
+    "scan-consistency": ".claude/skills/scan-consistency/SKILL.md"
+  }
 }

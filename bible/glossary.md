@@ -1,10 +1,16 @@
 # Glosario
 
 ## Terminos del mundo
-- TODO: Termino -> definicion
+- Termino: definicion. Capitalizacion. Primera aparicion. Notas.
 
 ## Tecnologia / Magia
-- TODO
+- Termino: definicion. Limites. Costo.
 
-## Instituciones
-- TODO
+## Instituciones y grupos
+- Nombre: rol. Jerarquia. Notas.
+
+## Objetos clave
+- Objeto: descripcion. Uso. Dueno.
+
+## Nombres propios y alias
+- Nombre: variantes permitidas.

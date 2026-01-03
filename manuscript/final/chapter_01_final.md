@@ -1,7 +1,11 @@
-# Chapter 01 Final
+# Capitulo 01 Final
 
 ## Edit notes
-- TODO: Summarize key edits.
+- Macro:
+- Micro:
+
+## Change log
+- 
 
 ## Final text
-TODO: Finalized chapter text.
+[Texto final del capitulo.]

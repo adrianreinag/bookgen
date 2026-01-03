@@ -2,7 +2,7 @@
 name: scan-consistency
 description: Verify a draft against the bible for factual consistency.
 inputs:
-  - draft chapter or full manuscript
+  - manuscript draft or final
   - bible files
 outputs:
   - list of issues and suggested fixes
@@ -11,14 +11,13 @@ outputs:
 # scan-consistency
 
 ## When to use
-- You need to check a draft for contradictions with the bible.
+- After a draft is generated or before final edits.
 
 ## Workflow
-1. Read the draft carefully.
-2. Cross-check characters, locations, timeline, and glossary.
-3. Flag any contradictions, omissions, or drift in tone.
-4. Suggest targeted fixes (do not rewrite the full draft).
-5. Log updates needed for the bible.
+1. Read the draft and extract named entities (people, places, objects).
+2. Check each entity against `bible/`.
+3. Flag contradictions, missing entries, timeline drift, or style guide violations.
+4. Suggest minimal fixes and bible updates.
 
 ## Output format
-- Use a table with columns: Issue, Evidence, Fix, Bible update.
+- Markdown table: Issue | Evidence | Fix | Bible update

@@ -1,9 +1,12 @@
-# Chapter 01 Draft v1
+# Capitulo 01 Draft v1
 
 ## Scene list
-- TODO: Scene 1 summary
-- TODO: Scene 2 summary
-- TODO: Scene 3 summary
+- Escena 1:
+- Escena 2:
+- Escena 3:
 
 ## Draft
-TODO: Write the prose here.
+[Escribir aqui el texto del capitulo. Seguir MRU y deep POV.]
+
+## New facts (si aparecen)
+- 

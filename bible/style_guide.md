@@ -1,25 +1,41 @@
 # Style Guide
 
 ## Voz y tono
-- Voz: TODO
-- Tono: TODO
+- Voz:
+- Tono:
+- Referencias (autores u obras):
+
+## POV y tiempo verbal
+- POV:
+- Tiempo verbal:
+- Distancia narrativa:
 
 ## Ritmo
-- Frases: mezcla de cortas y medias.
-- Parrafos: 2-4 oraciones.
+- Longitud de frases:
+- Longitud de parrafos:
+- Alternar escena y secuela:
+
+## Reglas de escena (MRU)
+- Orden obligatorio: motivacion externa -> reaccion interna -> accion -> dialogo.
+- No mezclar causa y efecto.
+
+## Deep POV
+- Evitar verbos filtro: ver, sentir, oir, pensar, notar, darse cuenta, observar.
+- Mostrar emociones con acciones y sensaciones.
 
 ## Lenguaje
-- Registro: TODO (formal, neutral, coloquial).
-- Palabras prohibidas: TODO
-- Muletillas a evitar: TODO
+- Registro:
+- Palabras prohibidas:
+- Muletillas a evitar:
+- Adverbios: limitar.
 
 ## Dialogo
-- Usa guiones largos solo si el proyecto ya los usa.
-- Mantener tags de dialogo simples y claros.
+- Sistema de dialogo (comillas o guion largo) y mantenerlo.
+- Evitar dialogo on-the-nose.
 
-## Detalle sensorial
-- Prioriza 2-3 sentidos por escena.
-- Evita adjetivos redundantes.
+## Descripcion sensorial
+- Minimo 2-3 sentidos por escena.
+- Detalles concretos > adjetivos vagos.
 
 ## Consistencia
-- Respeta nombres y capitalizacion segun el glosario.
+- Respetar glosario, nombres y capitalizacion.

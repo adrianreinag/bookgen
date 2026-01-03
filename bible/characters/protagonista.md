@@ -4,29 +4,46 @@
 - Protagonista
 
 ## Datos basicos
-- Edad: TODO
-- Ocupacion: TODO
-- Lugar de origen: TODO
+- Edad:
+- Ocupacion:
+- Lugar de origen:
+- Estado actual:
+
+## Psicologia
+- Eneagrama:
+- Herida o Fantasma:
+- Mentira (creencia falsa):
+- Verdad (necesidad):
+- Deseo externo (want):
+- Necesidad interna (need):
+
+## Arco narrativo
+- Inicio:
+- Punto medio:
+- Final:
+
+## Personalidad y voz
+- Rasgos:
+- Virtudes:
+- Defectos:
+- Lexico:
+- Sintaxis:
+- Muletillas:
+- Ritmo del habla:
 
 ## Apariencia
-- TODO
+- Rasgos fisicos clave:
+- Vestimenta:
 
-## Personalidad
-- Rasgos: TODO
-- Defectos: TODO
-- Virtudes: TODO
-
-## Motivacion
-- Deseo central: TODO
-- Miedo central: TODO
-
-## Arco
-- Punto de partida: TODO
-- Cambio clave: TODO
-- Punto final: TODO
+## Habilidades y recursos
+- Habilidades:
+- Debilidades:
+- Inventario clave:
 
 ## Relaciones
-- TODO
+- Aliados:
+- Antagonistas:
+- Vinculos familiares:
 
-## Notas
-- TODO
+## Notas de continuidad
+- Detalles inmutables:

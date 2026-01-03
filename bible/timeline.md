@@ -1,13 +1,30 @@
 # Cronologia Maestra
 
-## Era 0 - Antes de la historia
-- TODO
+## Convenciones
+- Usa fechas absolutas o marcas relativas (Dia 0, Semana 1).
+- Cada evento incluye fuente (capitulo o beat).
 
-## Era 1 - Inicio del conflicto
-- TODO
+## Prehistoria
+| Tiempo | Evento | Impacto | Fuente |
+| --- | --- | --- | --- |
+| TBD | | | |
 
-## Era 2 - Desarrollo
-- TODO
+## Acto 1
+| Tiempo | Evento | Impacto | Fuente |
+| --- | --- | --- | --- |
+| TBD | | | |
 
-## Era 3 - Resolucion
-- TODO
+## Acto 2A
+| Tiempo | Evento | Impacto | Fuente |
+| --- | --- | --- | --- |
+| TBD | | | |
+
+## Acto 2B
+| Tiempo | Evento | Impacto | Fuente |
+| --- | --- | --- | --- |
+| TBD | | | |
+
+## Acto 3
+| Tiempo | Evento | Impacto | Fuente |
+| --- | --- | --- | --- |
+| TBD | | | |

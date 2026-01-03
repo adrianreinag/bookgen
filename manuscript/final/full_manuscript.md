@@ -1,7 +1,8 @@
-# Full Manuscript
+# Manuscrito Completo
 
-## Chapters
-- Chapter 01: TODO
+## Indice
+1. Capitulo 01 - [titulo]
+2. Capitulo 02 - [titulo]
 
-## Compiled text
-TODO: Concatenate final chapters here.
+## Texto compilado
+[Concatenar capitulos finales aqui.]

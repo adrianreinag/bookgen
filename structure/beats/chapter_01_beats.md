@@ -1,8 +1,47 @@
 # Chapter 01 Beats
 
-1. TODO: Presentacion del protagonista en su estado cotidiano.
-2. TODO: Se insinua el conflicto latente.
-3. TODO: Llega el detonante que rompe la rutina.
-4. TODO: El protagonista reacciona y duda.
-5. TODO: Se establece el objetivo inmediato.
-6. TODO: Cierre con gancho.
+## Meta
+- Capitulo: 01
+- POV:
+- Tiempo:
+- Ubicacion principal:
+- Objetivo del capitulo:
+- Valor inicial -> valor final:
+
+## Escenas (3-6)
+1. Escena 1
+   - Objetivo:
+   - Conflicto:
+   - Resultado:
+   - Cambio de valor:
+   - Personajes:
+   - Lugar:
+2. Escena 2
+   - Objetivo:
+   - Conflicto:
+   - Resultado:
+   - Cambio de valor:
+   - Personajes:
+   - Lugar:
+3. Escena 3
+   - Objetivo:
+   - Conflicto:
+   - Resultado:
+   - Cambio de valor:
+   - Personajes:
+   - Lugar:
+
+## Beats (10-20)
+1. 
+2. 
+3. 
+4. 
+5. 
+6. 
+7. 
+8. 
+9. 
+10. 
+
+## Nuevos hechos para la biblia
+- Ninguno

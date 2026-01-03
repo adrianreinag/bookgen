@@ -1,26 +1,31 @@
 ---
 name: develop-beats
-description: Convert a chapter summary or outline item into a detailed beat sheet.
+description: Convert a chapter summary into a detailed beat sheet with scene goals.
 inputs:
-  - chapter summary or outline entry
-  - constraints from bible/style_guide.md
+  - structure/outline.md (chapter entry)
+  - bible/seed.md, bible/timeline.md
+  - relevant bible/characters and bible/locations
 outputs:
-  - markdown beat list with 10-20 beats
+  - structure/beats/chapter_##_beats.md
 ---
 
 # develop-beats
 
 ## When to use
-- You have a short chapter summary and need a step-by-step beat sheet.
+- You have a chapter summary and need a step by step plan.
 
 ## Workflow
-1. Read the relevant section in `structure/outline.md`.
-2. Check constraints in `bible/` (seed, timeline, glossary, characters).
-3. Draft 10-20 beats with escalating stakes and clear scene transitions.
-4. Validate each beat against the bible.
-5. Save to `structure/beats/chapter_##_beats.md`.
+1. Read the chapter entry in `structure/outline.md`.
+2. Load relevant bible entries (characters, locations, timeline).
+3. Choose structure model for the chapter (default: save_the_cat pacing).
+4. Break the chapter into 3-6 scenes.
+5. For each scene define: goal, conflict, outcome or disaster, value shift, location, time, characters.
+6. Expand into 10-20 beats that follow MRU-friendly causality.
+7. Add a final hook.
+8. Note any new facts for the archivist.
 
 ## Output format
-- Use a numbered list.
-- Each beat is one sentence.
-- End with a clear chapter hook.
+- Section: Meta (chapter, POV, time, location, objective).
+- Section: Scenes (numbered, each with fields).
+- Section: Beats (numbered list).
+- Section: New facts (bullet list or "none").

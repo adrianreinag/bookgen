@@ -1,14 +1,88 @@
 # Outline
 
-## Acto 1 - Planteamiento
-1. Capitulo 01: TODO - Incidente incitador.
-2. Capitulo 02: TODO - Primer punto de no retorno.
+## Metadatos del proyecto
+- Genero:
+- Tono:
+- POV:
+- Longitud objetivo (palabras):
+- Estructura: three act / save the cat / kisho ten ketsu
 
-## Acto 2 - Confrontacion
-3. Capitulo 03: TODO - Obstaculo mayor.
-4. Capitulo 04: TODO - Revelacion o giro.
-5. Capitulo 05: TODO - Crisis.
+## Acto 1 - Setup (0-25%)
 
-## Acto 3 - Resolucion
-6. Capitulo 06: TODO - Confrontacion final.
-7. Capitulo 07: TODO - Resolucion y cierre.
+### Capitulo 01 - [titulo]
+- Proposito:
+- Resumen (2-3 oraciones):
+- Personajes:
+- Ubicacion:
+- Objetivo y conflicto:
+- Hook final:
+
+### Capitulo 02 - [titulo]
+- Proposito:
+- Resumen (2-3 oraciones):
+- Personajes:
+- Ubicacion:
+- Objetivo y conflicto:
+- Hook final:
+
+## Acto 2A - Confrontacion (25-50%)
+
+### Capitulo 03 - [titulo]
+- Proposito:
+- Resumen (2-3 oraciones):
+- Personajes:
+- Ubicacion:
+- Objetivo y conflicto:
+- Hook final:
+
+### Capitulo 04 - [titulo]
+- Proposito:
+- Resumen (2-3 oraciones):
+- Personajes:
+- Ubicacion:
+- Objetivo y conflicto:
+- Hook final:
+
+## Acto 2B - Crisis (50-75%)
+
+### Capitulo 05 - [titulo]
+- Proposito:
+- Resumen (2-3 oraciones):
+- Personajes:
+- Ubicacion:
+- Objetivo y conflicto:
+- Hook final:
+
+### Capitulo 06 - [titulo]
+- Proposito:
+- Resumen (2-3 oraciones):
+- Personajes:
+- Ubicacion:
+- Objetivo y conflicto:
+- Hook final:
+
+## Acto 3 - Resolucion (75-100%)
+
+### Capitulo 07 - [titulo]
+- Proposito:
+- Resumen (2-3 oraciones):
+- Personajes:
+- Ubicacion:
+- Objetivo y conflicto:
+- Hook final:
+
+### Capitulo 08 - [titulo]
+- Proposito:
+- Resumen (2-3 oraciones):
+- Personajes:
+- Ubicacion:
+- Objetivo y conflicto:
+- Hook final:
+
+## Mapa de beats (opcional)
+- Opening Image -> Capitulo __
+- Catalyst -> Capitulo __
+- Break into Two -> Capitulo __
+- Midpoint -> Capitulo __
+- All is Lost -> Capitulo __
+- Finale -> Capitulo __
