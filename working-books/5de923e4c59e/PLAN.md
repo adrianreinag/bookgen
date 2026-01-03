@@ -3,147 +3,147 @@
 Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 
 ## 0. Preparacion del proyecto
-- [ ] Confirmar objetivo del libro (ficcion o no ficcion).
-- [ ] Definir audiencia objetivo.
-- [ ] Definir longitud objetivo (palabras).
-- [ ] Definir idioma y registro.
-- [ ] Definir nivel de uso de IA (ideacion, estructura, borrador, edicion).
-- [ ] Revisar y ajustar `CLAUDE.md` segun el proyecto.
-- [ ] Revisar la estructura de carpetas.
-- [ ] Crear carpeta de contexto: `manuscript/context/`.
-- [ ] Crear archivo de resumen vivo: `manuscript/context/story_so_far.md`.
-- [ ] Crear log de memoria: `manuscript/context/memory_log.json`.
-- [ ] Crear carpeta de feedback: `manuscript/feedback/`.
-- [ ] Crear log de critica: `manuscript/feedback/critique_log.md`.
-- [ ] Definir formato de registro de fuentes (APA, MLA, notas).
+- [x] Confirmar objetivo del libro (ficcion o no ficcion).
+- [x] Definir audiencia objetivo.
+- [x] Definir longitud objetivo (palabras).
+- [x] Definir idioma y registro.
+- [x] Definir nivel de uso de IA (ideacion, estructura, borrador, edicion).
+- [x] Revisar y ajustar `CLAUDE.md` segun el proyecto.
+- [x] Revisar la estructura de carpetas.
+- [x] Crear carpeta de contexto: `manuscript/context/`.
+- [x] Crear archivo de resumen vivo: `manuscript/context/story_so_far.md`.
+- [x] Crear log de memoria: `manuscript/context/memory_log.json`.
+- [x] Crear carpeta de feedback: `manuscript/feedback/`.
+- [x] Crear log de critica: `manuscript/feedback/critique_log.md`.
+- [x] Definir formato de registro de fuentes (APA, MLA, notas).
 
 ## 1. Semilla (seed)
-- [ ] Escribir logline en `bible/seed.md`.
-- [ ] Redactar premisa extendida (4 parrafos).
-- [ ] Definir tema central (mentira y verdad).
-- [ ] Definir pregunta moral.
-- [ ] Definir protagonista (want, need, herida).
-- [ ] Definir antagonista o fuerza opuesta.
-- [ ] Definir genero y subgenero.
-- [ ] Definir tropos obligatorios.
-- [ ] Definir tropos a evitar.
-- [ ] Definir POV.
-- [ ] Definir tiempo verbal.
-- [ ] Definir distancia narrativa.
-- [ ] Definir target word count.
-- [ ] Definir estructura (three act / save the cat / kisho ten ketsu).
-- [ ] Definir restricciones del mundo.
-- [ ] Definir restricciones de tono.
-- [ ] Definir necesidades de investigacion.
-- [ ] Redactar preguntas de worldbuilding a resolver.
+- [x] Escribir logline en `bible/seed.md`.
+- [x] Redactar premisa extendida (4 parrafos).
+- [x] Definir tema central (mentira y verdad).
+- [x] Definir pregunta moral.
+- [x] Definir protagonista (want, need, herida).
+- [x] Definir antagonista o fuerza opuesta.
+- [x] Definir genero y subgenero.
+- [x] Definir tropos obligatorios.
+- [x] Definir tropos a evitar.
+- [x] Definir POV.
+- [x] Definir tiempo verbal.
+- [x] Definir distancia narrativa.
+- [x] Definir target word count.
+- [x] Definir estructura (three act / save the cat / kisho ten ketsu).
+- [x] Definir restricciones del mundo.
+- [x] Definir restricciones de tono.
+- [x] Definir necesidades de investigacion.
+- [x] Redactar preguntas de worldbuilding a resolver.
 
 ## 2. Guia de estilo
-- [ ] Definir voz.
-- [ ] Definir tono.
-- [ ] Definir referencias literarias.
-- [ ] Definir ejemplos positivos (modelos de voz).
-- [ ] Definir ejemplos negativos (lo que no se debe hacer).
-- [ ] Definir longitud promedio de frases.
-- [ ] Definir longitud promedio de parrafos.
-- [ ] Definir reglas de dialogo.
-- [ ] Definir palabras prohibidas.
-- [ ] Definir muletillas a evitar.
-- [ ] Definir reglas de descripcion sensorial.
-- [ ] Confirmar MRU y deep POV.
-- [ ] Guardar en `bible/style_guide.md`.
+- [x] Definir voz.
+- [x] Definir tono.
+- [x] Definir referencias literarias.
+- [x] Definir ejemplos positivos (modelos de voz).
+- [x] Definir ejemplos negativos (lo que no se debe hacer).
+- [x] Definir longitud promedio de frases.
+- [x] Definir longitud promedio de parrafos.
+- [x] Definir reglas de dialogo.
+- [x] Definir palabras prohibidas.
+- [x] Definir muletillas a evitar.
+- [x] Definir reglas de descripcion sensorial.
+- [x] Confirmar MRU y deep POV.
+- [x] Guardar en `bible/style_guide.md`.
 
 ## 3. Worldbuilding (SOT)
-- [ ] Crear glosario base en `bible/glossary.md`.
-- [ ] Definir reglas del mundo (magia/tecnologia) si aplica.
-- [ ] Definir limitaciones y costos del sistema.
-- [ ] Definir reglas inmutables (fisicas o magicas).
-- [ ] Crear al menos 1 lugar principal en `bible/locations/`.
-- [ ] Definir cultura superficial del lugar.
-- [ ] Definir cultura profunda del lugar.
-- [ ] Definir restricciones de acceso.
-- [ ] Definir historia del lugar.
-- [ ] Definir conflictos potenciales del lugar.
-- [ ] Crear timeline inicial en `bible/timeline.md`.
-- [ ] Registrar eventos prehistoria.
-- [ ] Registrar eventos de acto 1.
+- [x] Crear glosario base en `bible/glossary.md`.
+- [x] Definir reglas del mundo (magia/tecnologia) si aplica.
+- [x] Definir limitaciones y costos del sistema.
+- [x] Definir reglas inmutables (fisicas o magicas).
+- [x] Crear al menos 1 lugar principal en `bible/locations/`.
+- [x] Definir cultura superficial del lugar.
+- [x] Definir cultura profunda del lugar.
+- [x] Definir restricciones de acceso.
+- [x] Definir historia del lugar.
+- [x] Definir conflictos potenciales del lugar.
+- [x] Crear timeline inicial en `bible/timeline.md`.
+- [x] Registrar eventos prehistoria.
+- [x] Registrar eventos de acto 1.
 
 ## 4. Personajes (SOT)
-- [ ] Crear ficha de protagonista.
-- [ ] Definir herida o fantasma.
-- [ ] Definir mentira y verdad.
-- [ ] Definir deseo externo y necesidad interna.
-- [ ] Definir arco en 3 pasos (inicio, medio, final).
-- [ ] Definir voz (lexico, sintaxis, muletillas).
-- [ ] Definir apariencia clave.
-- [ ] Definir habilidades y debilidades.
-- [ ] Definir inventario clave.
-- [ ] Definir relaciones.
-- [ ] Definir tipo de eneagrama.
-- [ ] Crear ficha de antagonista.
-- [ ] Repetir el mismo set de campos.
-- [ ] Crear fichas de secundarios necesarios.
+- [x] Crear ficha de protagonista.
+- [x] Definir herida o fantasma.
+- [x] Definir mentira y verdad.
+- [x] Definir deseo externo y necesidad interna.
+- [x] Definir arco en 3 pasos (inicio, medio, final).
+- [x] Definir voz (lexico, sintaxis, muletillas).
+- [x] Definir apariencia clave.
+- [x] Definir habilidades y debilidades.
+- [x] Definir inventario clave.
+- [x] Definir relaciones.
+- [x] Definir tipo de eneagrama.
+- [x] Crear ficha de antagonista.
+- [x] Repetir el mismo set de campos.
+- [x] Crear fichas de secundarios necesarios.
 
 ## 5. Investigacion y fuentes
-- [ ] Crear archivo de fuentes: `bible/research.md`.
-- [ ] Listar temas a investigar.
-- [ ] Priorizar temas criticos para la historia.
+- [x] Crear archivo de fuentes: `bible/research.md`.
+- [x] Listar temas a investigar.
+- [x] Priorizar temas criticos para la historia.
 - [ ] Buscar fuentes primarias o confiables.
 - [ ] Registrar cada fuente con enlace y nota.
 - [ ] Resumir hallazgos clave en bullets.
 - [ ] Marcar datos que deben verificarse mas adelante.
 
 ## 6. Estructura global (outline)
-- [ ] Definir numero de capitulos.
-- [ ] Crear `structure/outline.md`.
-- [ ] Para cada capitulo: proposito.
-- [ ] Para cada capitulo: resumen 2-3 oraciones.
-- [ ] Para cada capitulo: personajes.
-- [ ] Para cada capitulo: ubicacion.
-- [ ] Para cada capitulo: objetivo y conflicto.
-- [ ] Para cada capitulo: hook final.
-- [ ] Mapear beats clave (catalyst, midpoint, all is lost, finale).
-- [ ] Revisar ritmo y escalada de apuestas.
-- [ ] Validar que el arco del protagonista progresa.
-- [ ] Redefinir el plan por capitulos: crear secciones 7.x (beats), 8.x (draft) y 13.x (ciclo) segun el numero de capitulos.
+- [x] Definir numero de capitulos.
+- [x] Crear `structure/outline.md`.
+- [x] Para cada capitulo: proposito.
+- [x] Para cada capitulo: resumen 2-3 oraciones.
+- [x] Para cada capitulo: personajes.
+- [x] Para cada capitulo: ubicacion.
+- [x] Para cada capitulo: objetivo y conflicto.
+- [x] Para cada capitulo: hook final.
+- [x] Mapear beats clave (catalyst, midpoint, all is lost, finale).
+- [x] Revisar ritmo y escalada de apuestas.
+- [x] Validar que el arco del protagonista progresa.
+- [x] Redefinir el plan por capitulos: crear secciones 7.x (beats), 8.x (draft) y 13.x (ciclo) segun el numero de capitulos.
 
 ## 7.1 Beats capitulo 01
-- [ ] Crear `structure/beats/chapter_01_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_01_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.2 Beats capitulo 02
-- [ ] Crear `structure/beats/chapter_02_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_02_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.3 Beats capitulo 03
-- [ ] Crear `structure/beats/chapter_03_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_03_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.4 Beats capitulo 04
 - [ ] Crear `structure/beats/chapter_04_beats.md`.
@@ -362,3 +362,395 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 
 ## 13.8 Ciclo capitulo 08 (resumen)
 - [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+## 7.9 Beats capitulo 09
+- [ ] Crear `structure/beats/chapter_09_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.10 Beats capitulo 10
+- [ ] Crear `structure/beats/chapter_10_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.11 Beats capitulo 11
+- [ ] Crear `structure/beats/chapter_11_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.12 Beats capitulo 12
+- [ ] Crear `structure/beats/chapter_12_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.13 Beats capitulo 13
+- [ ] Crear `structure/beats/chapter_13_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.14 Beats capitulo 14
+- [ ] Crear `structure/beats/chapter_14_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.15 Beats capitulo 15
+- [ ] Crear `structure/beats/chapter_15_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.16 Beats capitulo 16
+- [ ] Crear `structure/beats/chapter_16_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.17 Beats capitulo 17
+- [ ] Crear `structure/beats/chapter_17_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.18 Beats capitulo 18
+- [ ] Crear `structure/beats/chapter_18_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.19 Beats capitulo 19
+- [ ] Crear `structure/beats/chapter_19_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.20 Beats capitulo 20
+- [ ] Crear `structure/beats/chapter_20_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.21 Beats capitulo 21
+- [ ] Crear `structure/beats/chapter_21_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 7.22 Beats capitulo 22
+- [ ] Crear `structure/beats/chapter_22_beats.md`.
+- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
+- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [ ] Definir cambio de valor por escena.
+- [ ] Definir personajes por escena.
+- [ ] Definir ubicacion por escena.
+- [ ] Definir objetos o entidades clave por escena.
+- [ ] Escribir 10-20 beats en orden causal.
+- [ ] Cerrar con gancho.
+- [ ] Registrar hechos nuevos para la biblia.
+
+## 8.9 Draft capitulo 09
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_09_v1.md`.
+
+## 8.10 Draft capitulo 10
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_10_v1.md`.
+
+## 8.11 Draft capitulo 11
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_11_v1.md`.
+
+## 8.12 Draft capitulo 12
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_12_v1.md`.
+
+## 8.13 Draft capitulo 13
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_13_v1.md`.
+
+## 8.14 Draft capitulo 14
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_14_v1.md`.
+
+## 8.15 Draft capitulo 15
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_15_v1.md`.
+
+## 8.16 Draft capitulo 16
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_16_v1.md`.
+
+## 8.17 Draft capitulo 17
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_17_v1.md`.
+
+## 8.18 Draft capitulo 18
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_18_v1.md`.
+
+## 8.19 Draft capitulo 19
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_19_v1.md`.
+
+## 8.20 Draft capitulo 20
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_20_v1.md`.
+
+## 8.21 Draft capitulo 21
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_21_v1.md`.
+
+## 8.22 Draft capitulo 22
+- [ ] Leer beats y guia de estilo.
+- [ ] Preparar contexto JIT (solo archivos necesarios).
+- [ ] Listar escenas al inicio del draft.
+- [ ] Redactar escena 1 siguiendo MRU.
+- [ ] Redactar escena 2 siguiendo MRU.
+- [ ] Redactar escena 3 siguiendo MRU.
+- [ ] Continuar hasta completar el capitulo.
+- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Guardar en `manuscript/drafts/chapter_22_v1.md`.
+
+## 13.9 Ciclo capitulo 09 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.10 Ciclo capitulo 10 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.11 Ciclo capitulo 11 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.12 Ciclo capitulo 12 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.13 Ciclo capitulo 13 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.14 Ciclo capitulo 14 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.15 Ciclo capitulo 15 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.16 Ciclo capitulo 16 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.17 Ciclo capitulo 17 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.18 Ciclo capitulo 18 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.19 Ciclo capitulo 19 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.20 Ciclo capitulo 20 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.21 Ciclo capitulo 21 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.22 Ciclo capitulo 22 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
