@@ -1,80 +1,97 @@
 # Bookgen
 
-Sistema local para crear, organizar y exportar libros a EPUB y PDF.
+Sistema local para crear, organizar y exportar libros a EPUB y PDF. Incluye plantillas para ideas y manuscritos, y scripts para arrancar proyectos y generar salidas finales.
 
 ## Estructura del proyecto
 
-- `template/`: base del libro (bible, estructura, manuscrito).
-- `working-books/`: libros en proceso (cada libro es una carpeta).
-- `output/`: libros exportados (EPUB y PDF).
-- `scripts/`: utilidades para crear y exportar libros.
-  - `scripts/assets/epub.css`: estilos para EPUB.
+- `books/`: libros en curso (cada libro vive en su propia carpeta por ID).
+- `ideas/`: ideas en exploracion (cada idea es una carpeta por ID).
+- `templates/`: plantillas base.
+  - `templates/book-template/`: base de libro (bible, estructura, manuscrito).
+  - `templates/idea-template/`: base de idea (input, proceso, ideas, handoff, toolkit).
+- `scripts/`: utilidades para crear ideas/libros y exportar.
+  - `scripts/assets/epub.css`: estilo por defecto para EPUB.
 
 ## Flujo recomendado
 
-1. Crear un libro nuevo desde la plantilla.
-2. Escribir y editar el manuscrito dentro de `working-books/<id>`.
-3. Completar la revision final y compilar el manuscrito.
-4. Definir el titulo final y renombrar la carpeta del libro (slug).
-5. Exportar a EPUB y PDF en `output/<titulo>`.
+1. (Opcional) Crear una idea nueva desde plantilla.
+2. Crear un libro nuevo desde plantilla.
+3. Trabajar bible, estructura y manuscrito.
+4. Consolidar el manuscrito final en `manuscript/final/full_manuscript.md`.
+5. Exportar a EPUB y PDF.
 
-## Paso a paso
-
-### 1) Crear un libro nuevo
-
-Ejecuta el script y toma el ID que devuelve.
+## Crear una idea
 
 ```bash
-./scripts/new-book.py
+python3 scripts/new-idea.py
 ```
 
 Salida esperada:
 
 ```
-Libro creado en: /ruta/al/proyecto/working-books/<id>
+Idea creada en: /ruta/al/proyecto/ideas/<id>
 ```
 
-### 2) Escribir el manuscrito
-
-Trabaja dentro de `working-books/<id>/` usando los archivos del template:
-
-- `manuscript/drafts/`: borradores.
-- `manuscript/final/`: version final por capitulo.
-- `manuscript/final/full_manuscript.md`: manuscrito completo.
-
-El plan maestro esta en `template/PLAN.md`.
-
-### 3) Cierre y titulo final
-
-Cuando el libro ya este listo:
-
-- Define el titulo final.
-- Escribe el titulo en `manuscript/final/full_manuscript.md`.
-- Renombra la carpeta del libro a un slug en minusculas y con guiones.
-  - Ejemplo: `mi-novela`.
-
-### 4) Exportar a EPUB y PDF
-
-Requiere `pandoc` y un motor LaTeX (xelatex/lualatex/pdflatex).
+## Crear un libro
 
 ```bash
-./scripts/export-book.py <id|ruta> "Titulo del libro" --author "Nombre" --lang es
+python3 scripts/new-book.py
 ```
 
-Esto genera:
+Salida esperada:
 
-- `output/Titulo del libro/Titulo del libro.epub`
-- `output/Titulo del libro/Titulo del libro.pdf`
+```
+Libro creado en: /ruta/al/proyecto/books/<id>
+```
 
-Para ajustar el estilo EPUB, edita `scripts/assets/epub.css`.
+## Estructura de un libro
+
+Dentro de `books/<id>/`:
+
+- `bible/`: personajes, locations, timeline y guias.
+- `structure/`: outline y beats por capitulo.
+- `manuscript/`:
+  - `drafts/`: borradores.
+  - `final/`: version final por capitulo y `full_manuscript.md`.
+- `assets/`: recursos del libro (por ejemplo `portada.png`).
+- `output/`: salidas generadas (EPUB/PDF).
+
+## Exportar a EPUB y PDF
+
+Requiere `pandoc` y un motor LaTeX (xelatex, lualatex o pdflatex).
+
+```bash
+python3 scripts/export-book.py <id|ruta> "Titulo del libro" --author "Nombre" --lang es
+```
+
+Salida:
+
+- `books/<id>/output/Titulo del libro.epub`
+- `books/<id>/output/Titulo del libro.pdf`
+
+Notas:
+
+- El manuscrito de entrada es `books/<id>/manuscript/final/full_manuscript.md`.
+- Si existe `books/<id>/assets/portada.png`, se usa como portada para EPUB y como primera pagina en PDF.
+- Para cambiar el estilo EPUB, usa `--css` o edita `scripts/assets/epub.css`.
+- El script no sobreescribe archivos existentes en `output/`.
 
 ## Dependencias
 
 - Python 3
 - pandoc
-- Un motor LaTeX para PDF: `xelatex`, `lualatex` o `pdflatex`
+- Motor LaTeX para PDF: `xelatex`, `lualatex` o `pdflatex`
 
-## Notas
+## Ejemplos
 
-- El script de exportacion evita sobreescribir archivos existentes.
-- Puedes pasar una ruta completa al libro en lugar del ID.
+Exportar usando una ruta directa:
+
+```bash
+python3 scripts/export-book.py books/5de923e4c59e "Mi novela" --author "Autor"
+```
+
+Usar un CSS alternativo para EPUB:
+
+```bash
+python3 scripts/export-book.py 5de923e4c59e "Mi novela" --css /ruta/mi-estilo.css
+```
