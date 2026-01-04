@@ -8,3 +8,4 @@
 - Gancho: facil de explicar en 1 frase.
 - Publico: encaja con edad y expectativas.
 - Viabilidad: apta para novela completa.
+- Uso del paquete de aleatoriedad: integra los picks de forma creativa, no decorativa.

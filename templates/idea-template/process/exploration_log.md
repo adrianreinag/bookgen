@@ -1,17 +1,13 @@
-# Exploration log
+# Exploration log (por idea)
 
-## Sesion 01
-- Fecha:
-- Input base:
-- Listas usadas:
-- Resultado (picks):
-- Metodos usados:
-- Observaciones:
+Registrar una fila por idea. El paquete de aleatoriedad debe ser unico; si se repite,
+volver a ejecutar el randomizer y actualizar el registro.
+Duplica filas hasta cubrir las 100 ideas.
 
-## Sesion 02
-- Fecha:
-- Input base:
-- Listas usadas:
-- Resultado (picks):
-- Metodos usados:
-- Observaciones:
+| Idea | Fecha/Hora | Listas usadas | Picks | Seed | Metodo principal | Restriccion oblicua | Notas |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| idea_001.md |  |  |  |  |  |  |  |
+| idea_002.md |  |  |  |  |  |  |  |
+| idea_003.md |  |  |  |  |  |  |  |
+| idea_004.md |  |  |  |  |  |  |  |
+| idea_005.md |  |  |  |  |  |  |  |

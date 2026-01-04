@@ -1,4 +1,4 @@
-# Style Guide (preliminar)
+# Style Guide (preliminar, solo para la final elegida)
 
 ## Voz y tono
 - Voz:

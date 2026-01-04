@@ -26,3 +26,8 @@
 ## Arquetipos y voz
 - Usa arquetipos para definir motivacion y sombra.
 - Apoya la voz con el cuestionario Proust si necesitas profundidad.
+
+## Reglas de variacion (anti-clones)
+- Cambia al menos 3 ejes por idea: protagonista, escenario, conflicto, motor narrativo o tono.
+- Si una logline suena similar a otra, reescribe desde otro paquete de ruido.
+- Prioriza combinaciones raras antes que mezclas obvias.

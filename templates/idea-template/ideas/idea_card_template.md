@@ -7,6 +7,7 @@
 - 
 
 ## Argumento posible (1 parrafo)
+- Debe incluir protagonista, objetivo, obstaculo y apuestas.
 - 
 
 ## Genero y publico
@@ -43,9 +44,10 @@
 ## Puntos de expansion
 - 
 
-## Paquete de aleatoriedad (si aplica)
-- Listas usadas:
-- Resultado (picks):
+## Paquete de aleatoriedad (obligatorio)
+- Seed:
+- Listas usadas (orden):
+- Resultado (picks unicos):
 - Restriccion oblicua:
 
 ## Notas

@@ -1,11 +1,11 @@
-# Seed para book-template (final elegida)
+# Seed finalista (Top 5)
 
-Usa este archivo solo para la final elegida. Las 5 finalistas viven en
-`handoff/finalists/`.
+Usa este archivo para una de las 5 finalistas. Si se elige una final,
+copiarla a `handoff/seed.md` y `handoff/seed.json`.
 
 ## Metadata
 - Source idea file:
-- Finalist rank (1-5):
+- Finalist rank (1-5): 1
 
 ## Logline (1 sentence)
 - 

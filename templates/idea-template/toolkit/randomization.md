@@ -8,6 +8,28 @@ un array JSON con una palabra aleatoria por cada lista, en el mismo orden.
 python3 toolkit/scripts/idea_randomizer.py "conflicts, fantasy_races, aesthetics"
 ```
 
+Para trazabilidad, usa `--emit-meta` y guarda el seed:
+
+```bash
+python3 toolkit/scripts/idea_randomizer.py "conflicts, themes, settings" --emit-meta
+```
+
+## Regla critica (por idea)
+- Ejecuta el randomizer una sola vez por idea.
+- No reutilices el mismo paquete de ruido entre ideas.
+- Si el paquete se repite, vuelve a correr hasta que sea unico.
+- Registra listas, picks y seed en la idea y en `process/exploration_log.md`.
+- Los picks deben modificar la idea (no son decoracion).
+
+## Paquetes recomendados (varian por idea)
+Usa 6-8 listas por idea para maximizar variedad. Ejemplo base:
+
+```bash
+python3 toolkit/scripts/idea_randomizer.py "conflicts, settings, themes, tones, inciting_incidents, antagonist_forces, stakes, oblique_strategies" --emit-meta
+```
+
+Regla adicional: cambia al menos 2 listas entre ideas consecutivas.
+
 ## Listas disponibles y uso recomendado
 - `aesthetics`: estilos visuales y atmosfera. Uso: definir el look del mundo.
 - `antagonist_forces`: fuerzas opositoras. Uso: definir enemigo o presion externa.

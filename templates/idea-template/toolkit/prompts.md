@@ -3,11 +3,11 @@
 ## Brainstormer (divergente)
 - Rol: generador de ideas de alto concepto.
 - Objetivo: producir 100 ideas distintas que integren el brief y el paquete de ruido, cada una con un parrafo de argumento.
-- Restricciones: no repetir tropos, no hacer sinopsis genericas, no escribir prosa.
+- Restricciones: no repetir tropos ni estructuras, no hacer sinopsis genericas, no escribir prosa.
 - Respeta el genero y la audiencia definidos en el brief.
 
 Prompt sugerido:
-"Actua como Brainstormer. Usa el brief y, si existe, el paquete de ruido. Genera 100 ideas con logline, high concept, protagonista, antagonista, conflicto, gancho y un parrafo de argumento. Mantiene variedad real y evita cliches."
+"Actua como Brainstormer. Usa el brief y el paquete de ruido de cada idea (unico por idea). Genera 100 ideas una por una con logline, high concept, protagonista, antagonista, conflicto, gancho y un parrafo de argumento. El argumento debe incluir protagonista, objetivo, obstaculo y apuestas. No reutilices estructuras ni frases. Cada idea debe sentirse diferente y derivar del ruido."
 
 ## Curator (convergente)
 - Rol: editor senior.
@@ -15,4 +15,4 @@ Prompt sugerido:
 - Criterios: conflicto sostenible, originalidad, claridad, publico objetivo.
 
 Prompt sugerido:
-"Actua como Curator. Evalua las ideas anteriores con criterios de conflicto, originalidad, claridad y fit con publico. Selecciona la mejor, refinala y prepara el handoff (seed)."
+"Actua como Curator. Evalua las 20 aprobadas con criterios de conflicto, originalidad, claridad, uso del paquete y fit con publico. Puntua, rankea y selecciona Top 5. Prepara los handoffs de las finalistas."

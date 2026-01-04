@@ -18,8 +18,13 @@ description: Run the idea-template contest using toolkit/scripts/idea_contest.py
 3. Resolver la ronda y mover archivos:
    - `python3 toolkit/scripts/idea_contest.py resolve --round process/contest_round_01.json --winner 3`
 4. Repetir hasta vaciar `ideas/contest/` sin pedir confirmacion al usuario.
-5. El resultado final debe ser 20 ideas en `ideas/approved/` y 80 en `ideas/rejected/`.
+5. Guardar cada ronda como `process/contest_round_XX.json`.
+6. El resultado final debe ser 20 ideas en `ideas/approved/` y 80 en `ideas/rejected/`.
+7. Puntuar las 20 aprobadas en `process/scoring_matrix.md` y ordenar por score.
+8. Registrar Top 5 ganadoras en `process/decision_log.md`.
+9. Preparar 5 handoffs en `handoff/finalists/` (una seed por ganadora).
 
 ## Notas
 - `--winner` acepta indice (1-5) o nombre de archivo.
 - Usa `--seed` en `draw` si necesitas reproducibilidad.
+- Empates en scoring: priorizar Originalidad y Uso del paquete.
