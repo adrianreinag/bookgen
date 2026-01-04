@@ -597,28 +597,28 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Guardar en `manuscript/drafts/chapter_17_v1.md`.
 
 ## 8.18 Draft capitulo 18
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_18_v1.md`.
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_18_v1.md`.
 
 ## 8.19 Draft capitulo 19
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_19_v1.md`.
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_19_v1.md`.
 
 ## 8.20 Draft capitulo 20
 - [ ] Leer beats y guia de estilo.
