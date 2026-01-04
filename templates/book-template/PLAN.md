@@ -334,7 +334,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Concatenar capitulos finales.
 - [ ] Definir titulo final del libro.
 - [ ] Escribir el titulo en `manuscript/final/full_manuscript.md`.
-- [ ] Renombrar la carpeta del libro en `working-books` usando minusculas y guiones.
+- [ ] Renombrar la carpeta del libro en `books` usando minusculas y guiones.
 - [ ] Verificar consistencia global.
 - [ ] Verificar continuidad en timeline y glosario.
 - [ ] Exportar o preparar para publicacion (si aplica).

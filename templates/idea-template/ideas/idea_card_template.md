@@ -43,11 +43,10 @@
 ## Puntos de expansion
 - 
 
-## Semilla de aleatoriedad (si aplica)
-- Seed ID:
-- Esteticas:
-- Tropos / conflicto:
-- Estrategia oblicua:
+## Paquete de aleatoriedad (si aplica)
+- Listas usadas:
+- Resultado (picks):
+- Restriccion oblicua:
 
 ## Notas
 - 

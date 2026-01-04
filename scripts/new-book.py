@@ -10,11 +10,11 @@ import uuid
 def main() -> int:
     script_dir = Path(__file__).resolve().parent
     root_dir = script_dir.parent
-    working_dir = root_dir / "working-books"
+    working_dir = root_dir / "books"
     template_dir = root_dir / "templates" / "book-template"
 
     if not working_dir.is_dir():
-        print(f"No existe la carpeta working-books en {root_dir}.", file=sys.stderr)
+        print(f"No existe la carpeta books en {root_dir}.", file=sys.stderr)
         return 1
 
     if not template_dir.is_dir():

@@ -6,7 +6,7 @@ description: Generate randomized ideation picks from per-list JSON files using t
 # idea-randomizer
 
 1. Identificar listas en `data/` (una lista por archivo JSON).
-2. Ejecutar `toolkit/scripts/idea_randomizer.py` con los nombres de listas.
+2. Ejecutar `toolkit/scripts/idea_randomizer.py` con los nombres de listas separados por comas.
 3. Guardar el resultado en `process/exploration_log.md`.
 
 ## Comandos utiles

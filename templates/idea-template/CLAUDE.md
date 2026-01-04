@@ -13,7 +13,7 @@ Este template crea ideas solidas para libros y entrega una semilla lista para el
 
 ## Flujo de trabajo recomendado (fractal)
 1. Brief: completar `input/brief.md`, `input/audience.md`, `input/constraints.md`.
-2. Divergencia: generar N ideas usando aleatoriedad y tecnicas del toolkit.
+2. Divergencia: generar N ideas usando aleatoriedad del randomizer y tecnicas del toolkit.
 3. Expansion: desarrollar top 3-5 con detalle.
 4. Convergencia: evaluar, seleccionar y registrar la decision.
 5. Handoff: completar `handoff/seed.md` y `handoff/seed.json`.
@@ -28,6 +28,7 @@ Este template crea ideas solidas para libros y entrega una semilla lista para el
 ## Politica de SOT y actualizaciones
 - Si cambia la idea elegida, actualizar `ideas/selected.md` y `handoff/seed.json`.
 - La idea elegida define el brief final para el book-template.
+- Registrar listas usadas y picks en `process/exploration_log.md`.
 
 ## Contexto JIT
 - Cargar solo brief, shortlist y archivos de handoff.
@@ -50,6 +51,7 @@ Este template crea ideas solidas para libros y entrega una semilla lista para el
 
 ## Comandos conceptuales
 - `generate-ideas [n]`: fase divergente.
+- `randomize [listas]`: obtener picks aleatorios para divergencia.
 - `expand-idea [id]`: expansion de candidato.
 - `score-ideas`: completar matriz de puntuacion.
 - `select-idea`: decision y SOT.

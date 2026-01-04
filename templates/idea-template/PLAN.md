@@ -21,8 +21,8 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 
 ## 2. Divergencia (generacion de ideas)
 - [ ] Definir metodos de ideacion a usar (binomio, what-if, mashup, SCAMPER, oblique).
-- [ ] Elegir lente de genero y banco de semillas (si aplica).
-- [ ] Registrar una seed de aleatoriedad si aplica en `process/exploration_log.md`.
+- [ ] Elegir lente de genero y listas de palabras (si aplica).
+- [ ] Registrar listas usadas y resultado en `process/exploration_log.md`.
 - [ ] Generar N ideas en `ideas/raw_ideas.md` usando `ideas/idea_card_template.md`.
 - [ ] Asegurar variedad en conflicto, mundo y protagonista.
 - [ ] Evitar repeticion de tropos o estructuras.

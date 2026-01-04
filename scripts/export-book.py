@@ -6,6 +6,7 @@ from pathlib import Path
 import shutil
 import subprocess
 import sys
+import tempfile
 
 
 def pick_pdf_engine() -> str | None:
@@ -29,11 +30,11 @@ def main() -> int:
     )
     parser.add_argument(
         "book_ref",
-        help="ID en working-books o ruta al libro final.",
+        help="ID en books o ruta al libro final.",
     )
     parser.add_argument(
         "book_name",
-        help="Nombre del libro (titulo y carpeta de salida).",
+        help="Nombre del libro (titulo y nombre de archivos de salida).",
     )
     parser.add_argument(
         "--author",
@@ -64,14 +65,13 @@ def main() -> int:
 
     script_dir = Path(__file__).resolve().parent
     root_dir = script_dir.parent
-    working_dir = root_dir / "working-books"
-    output_root = root_dir / "output"
+    books_dir = root_dir / "books"
 
     book_ref_path = Path(args.book_ref)
     if book_ref_path.is_dir():
         book_dir = book_ref_path.resolve()
     else:
-        book_dir = (working_dir / args.book_ref).resolve()
+        book_dir = (books_dir / args.book_ref).resolve()
 
     if not book_dir.is_dir():
         print(f"No existe el libro: {book_dir}", file=sys.stderr)
@@ -86,8 +86,7 @@ def main() -> int:
         print("pandoc no esta instalado o no esta en el PATH.", file=sys.stderr)
         return 1
 
-    output_root.mkdir(parents=True, exist_ok=True)
-    output_dir = output_root / book_name
+    output_dir = book_dir / "output"
 
     epub_file = output_dir / f"{book_name}.epub"
     pdf_file = output_dir / f"{book_name}.pdf"
@@ -110,6 +109,7 @@ def main() -> int:
     if args.author:
         common_args.extend(["--metadata", f"author={args.author}"])
 
+    cover_image = book_dir / "assets" / "portada.png"
     css_path = (
         Path(args.css)
         if args.css
@@ -125,6 +125,8 @@ def main() -> int:
     ]
     if css_path.is_file():
         epub_args.extend(["--css", str(css_path)])
+    if cover_image.is_file():
+        epub_args.extend(["--epub-cover-image", str(cover_image)])
 
     run_pandoc(epub_args)
 
@@ -161,7 +163,30 @@ def main() -> int:
             ]
         )
 
-    run_pandoc(pdf_args)
+    cover_tex_path: Path | None = None
+    if cover_image.is_file():
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            suffix=".tex",
+            delete=False,
+            encoding="utf-8",
+        ) as cover_tex:
+            cover_tex.write(
+                "\\thispagestyle{empty}\n"
+                "\\begin{center}\n"
+                "\\includegraphics[width=\\textwidth,height=\\textheight,keepaspectratio]"
+                f"{{\\detokenize{{{cover_image.as_posix()}}}}}\n"
+                "\\end{center}\n"
+                "\\clearpage\n"
+            )
+            cover_tex_path = Path(cover_tex.name)
+        pdf_args.extend(["--include-before-body", str(cover_tex_path)])
+
+    try:
+        run_pandoc(pdf_args)
+    finally:
+        if cover_tex_path and cover_tex_path.exists():
+            cover_tex_path.unlink()
     print(f"Archivos generados en: {output_dir}")
     return 0
 
