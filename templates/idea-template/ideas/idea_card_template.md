@@ -6,7 +6,7 @@
 ## High concept (X se encuentra con Y)
 - 
 
-## Pitch corto
+## Argumento posible (1 parrafo)
 - 
 
 ## Genero y publico

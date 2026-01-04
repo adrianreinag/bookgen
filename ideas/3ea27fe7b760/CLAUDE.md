@@ -13,10 +13,11 @@ Este template crea ideas solidas para libros y entrega una semilla lista para el
 - Tras completar el brief, generar las 100 ideas y ejecutar el concurso sin consultar al usuario.
 - Para generar cada idea usar la skill `idea-randomizer`.
 - Para el concurso usar la skill `idea-contest`.
+- Antes del concurso, cada una de las 100 ideas debe incluir un parrafo con el posible argumento de la novela.
 
 ## Flujo de trabajo recomendado (fractal)
 1. Brief: completar `input/brief.md`, `input/audience.md`, `input/constraints.md`.
-2. Divergencia: generar 100 ideas usando la skill `idea-randomizer` y tecnicas del toolkit.
+2. Divergencia: generar 100 ideas con un parrafo de argumento usando la skill `idea-randomizer` y tecnicas del toolkit.
 3. Concurso: evaluar ideas de 5 en 5 usando la skill `idea-contest` hasta obtener 20 aprobadas.
 4. Expansion: desarrollar top 3-5 aprobadas con detalle.
 5. Convergencia: evaluar, seleccionar y registrar la decision.
@@ -24,7 +25,7 @@ Este template crea ideas solidas para libros y entrega una semilla lista para el
 
 ## Ejecucion autonoma (sin consultas)
 - Si el brief, publico y restricciones estan completos, no pedir confirmacion.
-- Generar 100 ideas en archivos individuales y correr el concurso completo.
+- Generar 100 ideas en archivos individuales con un parrafo de argumento y correr el concurso completo.
 - Decidir ganadoras por criterios internos y continuar hasta vaciar `ideas/contest/`.
 
 ## Roles y responsabilidades
@@ -54,7 +55,8 @@ Este template crea ideas solidas para libros y entrega una semilla lista para el
 ## Convenciones de archivos
 - Ideas en concurso: `ideas/contest/` (100 archivos Markdown).
 - Nombre sugerido: `idea_001.md` ... `idea_100.md`.
-- Cada idea usa `ideas/idea_card_template.md` y completa todos los campos con bullets concisos.
+- Cada idea usa `ideas/idea_card_template.md` y completa todos los campos con bullets concisos, salvo el argumento.
+- Cada idea incluye un parrafo en `Argumento posible` explicando la premisa de la novela.
 - Ideas aprobadas: `ideas/approved/`.
 - Ideas rechazadas: `ideas/rejected/`.
 - Handoff JSON: `handoff/seed.json`.
@@ -71,6 +73,7 @@ Este template crea ideas solidas para libros y entrega una semilla lista para el
 - `contest-resolve`: mover ganadora a `ideas/approved/` y descartadas a `ideas/rejected/`.
 
 ## Concurso operativo (detalle)
+- Ejecutar el concurso solo cuando las 100 ideas incluyan el parrafo de argumento.
 - Ejecutar rondas de 5 ideas hasta vaciar `ideas/contest/`.
 - Evaluar cada idea de la ronda con los criterios de `toolkit/evaluation.md`.
 - Elegir una ganadora por ronda y moverla a `ideas/approved/`.
@@ -79,7 +82,7 @@ Este template crea ideas solidas para libros y entrega una semilla lista para el
 
 ## Inicio rapido
 - Completar `input/brief.md`.
-- Generar 100 ideas en `ideas/contest/`.
+- Generar 100 ideas con un parrafo de argumento en `ideas/contest/`.
 - Ejecutar el concurso hasta tener 20 aprobadas.
 - Expandir 3-5 aprobadas dentro de sus archivos en `ideas/approved/`.
 - Elegir ganadora y completar `handoff/seed.md`, `handoff/seed.json` y `handoff/style_guide.md`.

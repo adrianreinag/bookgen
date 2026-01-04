@@ -8,6 +8,7 @@ description: Run the idea-template contest using toolkit/scripts/idea_contest.py
 ## Requisitos
 - `ideas/contest/` contiene inicialmente exactamente 100 ideas en Markdown.
 - Cada idea usa `ideas/idea_card_template.md` y completa todos los campos.
+- Cada idea incluye un parrafo explicando el posible argumento de la novela en `Argumento posible`.
 - Existen `ideas/approved/` y `ideas/rejected/`.
 
 ## Flujo

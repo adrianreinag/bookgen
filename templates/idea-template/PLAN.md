@@ -19,19 +19,22 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Definir limites de tono y contenido.
 - [ ] Si todo lo anterior esta completo, continuar sin pedir confirmacion.
 
-## 2. Divergencia (generacion de 100 ideas)
+## 2. Divergencia (generacion de 100 ideas con argumento)
 - [ ] Definir metodos de ideacion a usar (binomio, what-if, mashup, SCAMPER, oblique).
 - [ ] Elegir lente de genero y listas de palabras (si aplica).
 - [ ] Registrar listas usadas y resultado en `process/exploration_log.md`.
 - [ ] Generar exactamente 100 ideas (ni mas ni menos) en `ideas/contest/` con un archivo Markdown por idea.
-- [ ] Usar `ideas/idea_card_template.md` en cada archivo y completar todos los campos con bullets concisos.
+- [ ] Usar `ideas/idea_card_template.md` en cada archivo y completar todos los campos con bullets concisos, salvo el argumento.
+- [ ] Agregar un parrafo explicando el posible argumento de la novela en `Argumento posible`.
 - [ ] Nombrar archivos como `idea_001.md` ... `idea_100.md`.
 - [ ] Para cada idea, usar la skill `idea-randomizer`.
 - [ ] Asegurar variedad en conflicto, mundo y protagonista.
 - [ ] Evitar repeticion de tropos o estructuras.
+- [ ] No iniciar el concurso hasta que las 100 ideas incluyan el parrafo de argumento.
 
 ## 3. Concurso de ideas (100 -> 20)
 - [ ] Ejecutar el concurso con la skill `idea-contest`.
+- [ ] Verificar que las 100 ideas tienen parrafo de argumento antes de la primera ronda.
 - [ ] En cada ronda: seleccionar 5 ideas aleatorias, evaluar una por una y elegir 1 ganadora.
 - [ ] Mover la ganadora a `ideas/approved/` y las otras 4 a `ideas/rejected/`.
 - [ ] Repetir hasta vaciar `ideas/contest/`.
