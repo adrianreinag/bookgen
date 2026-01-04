@@ -146,69 +146,69 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [x] Registrar hechos nuevos para la biblia.
 
 ## 7.4 Beats capitulo 04
-- [ ] Crear `structure/beats/chapter_04_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_04_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.5 Beats capitulo 05
-- [ ] Crear `structure/beats/chapter_05_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_05_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.6 Beats capitulo 06
-- [ ] Crear `structure/beats/chapter_06_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_06_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.7 Beats capitulo 07
-- [ ] Crear `structure/beats/chapter_07_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_07_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.8 Beats capitulo 08
-- [ ] Crear `structure/beats/chapter_08_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_08_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 8.1 Draft capitulo 01
 - [ ] Leer beats y guia de estilo.
@@ -363,186 +363,186 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 ## 13.8 Ciclo capitulo 08 (resumen)
 - [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
 ## 7.9 Beats capitulo 09
-- [ ] Crear `structure/beats/chapter_09_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_09_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.10 Beats capitulo 10
-- [ ] Crear `structure/beats/chapter_10_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_10_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado).
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.11 Beats capitulo 11
-- [ ] Crear `structure/beats/chapter_11_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_11_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.12 Beats capitulo 12
-- [ ] Crear `structure/beats/chapter_12_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_12_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.13 Beats capitulo 13
-- [ ] Crear `structure/beats/chapter_13_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_13_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.14 Beats capitulo 14
-- [ ] Crear `structure/beats/chapter_14_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_14_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.15 Beats capitulo 15
-- [ ] Crear `structure/beats/chapter_15_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_15_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.16 Beats capitulo 16
-- [ ] Crear `structure/beats/chapter_16_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_16_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.17 Beats capitulo 17
-- [ ] Crear `structure/beats/chapter_17_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_17_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.18 Beats capitulo 18
-- [ ] Crear `structure/beats/chapter_18_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_18_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.19 Beats capitulo 19
-- [ ] Crear `structure/beats/chapter_19_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_19_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.20 Beats capitulo 20
-- [ ] Crear `structure/beats/chapter_20_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_20_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.21 Beats capitulo 21
-- [ ] Crear `structure/beats/chapter_21_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_21_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 7.22 Beats capitulo 22
-- [ ] Crear `structure/beats/chapter_22_beats.md`.
-- [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
-- [ ] Definir meta del capitulo (POV, tiempo, objetivo).
-- [ ] Definir escenas (3-6) con objetivo, conflicto y resultado.
-- [ ] Definir cambio de valor por escena.
-- [ ] Definir personajes por escena.
-- [ ] Definir ubicacion por escena.
-- [ ] Definir objetos o entidades clave por escena.
-- [ ] Escribir 10-20 beats en orden causal.
-- [ ] Cerrar con gancho.
-- [ ] Registrar hechos nuevos para la biblia.
+- [x] Crear `structure/beats/chapter_22_beats.md`.
+- [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
+- [x] Definir meta del capitulo (POV, tiempo, objetivo).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
+- [x] Definir cambio de valor por escena.
+- [x] Definir personajes por escena.
+- [x] Definir ubicacion por escena.
+- [x] Definir objetos o entidades clave por escena.
+- [x] Escribir 10-20 beats en orden causal.
+- [x] Cerrar con gancho.
+- [x] Registrar hechos nuevos para la biblia.
 
 ## 8.9 Draft capitulo 09
 - [ ] Leer beats y guia de estilo.
