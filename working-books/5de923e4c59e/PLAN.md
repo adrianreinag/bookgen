@@ -210,158 +210,6 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [x] Cerrar con gancho.
 - [x] Registrar hechos nuevos para la biblia.
 
-## 8.1 Draft capitulo 01
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_01_v1.md`.
-
-## 8.2 Draft capitulo 02
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_02_v1.md`.
-
-## 8.3 Draft capitulo 03
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_03_v1.md`.
-
-## 8.4 Draft capitulo 04
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_04_v1.md`.
-
-## 8.5 Draft capitulo 05
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_05_v1.md`.
-
-## 8.6 Draft capitulo 06
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_06_v1.md`.
-
-## 8.7 Draft capitulo 07
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_07_v1.md`.
-
-## 8.8 Draft capitulo 08
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_08_v1.md`.
-
-## 9. Consistencia y SOT
-- [ ] Ejecutar scan-consistency del capitulo.
-- [ ] Resolver contradicciones detectadas.
-- [ ] Actualizar `bible/characters/` si hay hechos nuevos.
-- [ ] Actualizar `bible/locations/` si hay hechos nuevos.
-- [ ] Actualizar `bible/glossary.md` si hay terminos nuevos.
-- [ ] Actualizar `bible/timeline.md` con eventos nuevos.
-
-## 10. Lectura progresiva y memoria
-- [ ] Ejecutar lectura progresiva del capitulo.
-- [ ] Registrar criticas en `manuscript/feedback/critique_log.md`.
-- [ ] Actualizar `manuscript/context/story_so_far.md` con resumen denso (CoD).
-- [ ] Actualizar `manuscript/context/memory_log.json` con eventos clave.
-
-## 11. Revision editorial (final)
-- [ ] Revision macro (trama, ritmo, arcos).
-- [ ] Revision de escenas y secuelas.
-- [ ] Revision de coherencia de voz.
-- [ ] Revision de dialogo (subtexto, muletillas).
-- [ ] Revision micro (verbos filtro, adverbios, pasiva).
-- [ ] Guardar en `manuscript/final/chapter_##_final.md`.
-- [ ] Redactar notas de edicion y change log.
-
-## 12. Compilacion y cierre
-- [ ] Actualizar indice en `manuscript/final/full_manuscript.md`.
-- [ ] Concatenar capitulos finales.
-- [ ] Definir titulo final del libro.
-- [ ] Escribir el titulo en `manuscript/final/full_manuscript.md`.
-- [ ] Renombrar la carpeta del libro en `working-books` usando minusculas y guiones.
-- [ ] Verificar consistencia global.
-- [ ] Verificar continuidad en timeline y glosario.
-- [ ] Exportar o preparar para publicacion (si aplica).
-
-## 13.1 Ciclo capitulo 01 (resumen)
-- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
-
-## 13.2 Ciclo capitulo 02 (resumen)
-- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
-
-## 13.3 Ciclo capitulo 03 (resumen)
-- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
-
-## 13.4 Ciclo capitulo 04 (resumen)
-- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
-
-## 13.5 Ciclo capitulo 05 (resumen)
-- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
-
-## 13.6 Ciclo capitulo 06 (resumen)
-- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
-
-## 13.7 Ciclo capitulo 07 (resumen)
-- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
-
-## 13.8 Ciclo capitulo 08 (resumen)
-- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
 ## 7.9 Beats capitulo 09
 - [x] Crear `structure/beats/chapter_09_beats.md`.
 - [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
@@ -379,7 +227,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [x] Crear `structure/beats/chapter_10_beats.md`.
 - [x] Cargar SOT relevante (personajes, lugares, timeline, glosario).
 - [x] Definir meta del capitulo (POV, tiempo, objetivo).
-- [x] Definir escenas (3-6) con objetivo, conflicto y resultado).
+- [x] Definir escenas (3-6) con objetivo, conflicto y resultado.
 - [x] Definir cambio de valor por escena.
 - [x] Definir personajes por escena.
 - [x] Definir ubicacion por escena.
@@ -544,101 +392,197 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [x] Cerrar con gancho.
 - [x] Registrar hechos nuevos para la biblia.
 
+## 8.1 Draft capitulo 01
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_01_v1.md`.
+
+## 8.2 Draft capitulo 02
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar in `manuscript/drafts/chapter_02_v1.md`.
+
+## 8.3 Draft capitulo 03
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_03_v1.md`.
+
+## 8.4 Draft capitulo 04
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_04_v1.md`.
+
+## 8.5 Draft capitulo 05
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_05_v1.md`.
+
+## 8.6 Draft capitulo 06
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_06_v1.md`.
+
+## 8.7 Draft capitulo 07
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_07_v1.md`.
+
+## 8.8 Draft capitulo 08
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_08_v1.md`.
+
 ## 8.9 Draft capitulo 09
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_09_v1.md`.
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar in `manuscript/drafts/chapter_09_v1.md`.
 
 ## 8.10 Draft capitulo 10
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_10_v1.md`.
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_10_v1.md`.
 
 ## 8.11 Draft capitulo 11
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_11_v1.md`.
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_11_v1.md`.
 
 ## 8.12 Draft capitulo 12
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_12_v1.md`.
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_12_v1.md`.
 
 ## 8.13 Draft capitulo 13
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_13_v1.md`.
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_13_v1.md`.
 
 ## 8.14 Draft capitulo 14
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_14_v1.md`.
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_14_v1.md`.
 
 ## 8.15 Draft capitulo 15
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_15_v1.md`.
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_15_v1.md`.
 
 ## 8.16 Draft capitulo 16
-- [ ] Leer beats y guia de estilo.
-- [ ] Preparar contexto JIT (solo archivos necesarios).
-- [ ] Listar escenas al inicio del draft.
-- [ ] Redactar escena 1 siguiendo MRU.
-- [ ] Redactar escena 2 siguiendo MRU.
-- [ ] Redactar escena 3 siguiendo MRU.
-- [ ] Continuar hasta completar el capitulo.
-- [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
-- [ ] Guardar en `manuscript/drafts/chapter_16_v1.md`.
+- [x] Leer beats y guia de estilo.
+- [x] Preparar contexto JIT (solo archivos necesarios).
+- [x] Listar escenas al inicio del draft.
+- [x] Redactar escena 1 siguiendo MRU.
+- [x] Redactar escena 2 siguiendo MRU.
+- [x] Redactar escena 3 siguiendo MRU.
+- [x] Continuar hasta completar el capitulo.
+- [x] Etiquetar objetos o entidades clave (si se usa RAG por tags).
+- [x] Registrar hechos nuevos en seccion "New facts".
+- [x] Guardar en `manuscript/drafts/chapter_16_v1.md`.
 
 ## 8.17 Draft capitulo 17
 - [ ] Leer beats y guia de estilo.
@@ -711,6 +655,63 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
 - [ ] Registrar hechos nuevos en seccion "New facts".
 - [ ] Guardar en `manuscript/drafts/chapter_22_v1.md`.
+
+## 9. Consistencia y SOT
+- [ ] Ejecutar scan-consistency del capitulo.
+- [ ] Resolver contradicciones detectadas.
+- [ ] Actualizar `bible/characters/` si hay hechos nuevos.
+- [ ] Actualizar `bible/locations/` si hay hechos nuevos.
+- [ ] Actualizar `bible/glossary.md` si hay terminos nuevos.
+- [ ] Actualizar `bible/timeline.md` con eventos nuevos.
+
+## 10. Lectura progresiva y memoria
+- [ ] Ejecutar lectura progresiva del capitulo.
+- [ ] Registrar criticas en `manuscript/feedback/critique_log.md`.
+- [ ] Actualizar `manuscript/context/story_so_far.md` con resumen denso (CoD).
+- [ ] Actualizar `manuscript/context/memory_log.json` con eventos clave.
+
+## 11. Revision editorial (final)
+- [ ] Revision macro (trama, ritmo, arcos).
+- [ ] Revision de escenas y secuelas.
+- [ ] Revision de coherencia de voz.
+- [ ] Revision de dialogo (subtexto, muletillas).
+- [ ] Revision micro (verbos filtro, adverbios, pasiva).
+- [ ] Guardar en `manuscript/final/chapter_##_final.md`.
+- [ ] Redactar notas de edicion y change log.
+
+## 12. Compilacion y cierre
+- [ ] Actualizar indice en `manuscript/final/full_manuscript.md`.
+- [ ] Concatenar capitulos finales.
+- [ ] Definir titulo final del libro.
+- [ ] Escribir el titulo en `manuscript/final/full_manuscript.md`.
+- [ ] Renombrar la carpeta del libro en `working-books` usando minusculas y guiones.
+- [ ] Verificar consistencia global.
+- [ ] Verificar continuidad en timeline y glosario.
+- [ ] Exportar o preparar para publicacion (si aplica).
+
+## 13.1 Ciclo capitulo 01 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.2 Ciclo capitulo 02 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.3 Ciclo capitulo 03 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.4 Ciclo capitulo 04 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.5 Ciclo capitulo 05 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.6 Ciclo capitulo 06 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.7 Ciclo capitulo 07 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
+
+## 13.8 Ciclo capitulo 08 (resumen)
+- [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
 
 ## 13.9 Ciclo capitulo 09 (resumen)
 - [ ] Beats -> Draft -> Consistencia -> SOT -> Lectura -> Revision final.
