@@ -2,51 +2,131 @@
   "meta": {
     "version": "1.0",
     "generator": "idea-template",
-    "timestamp": "ISO8601_TIMESTAMP",
-    "seed_entropy_id": 0
+    "timestamp": "2026-01-04",
+    "seed_entropy_id": 57,
+    "source_idea": "ideas/approved/idea_057.md"
   },
   "core_concept": {
-    "title_working": "TBD",
-    "logline": "TBD",
-    "genres": [],
-    "themes": []
+    "title_working": "Mnemosyne",
+    "alternative_titles": ["Los Que Recuerdan", "Memoria Prohibida", "El Virus del Recuerdo"],
+    "logline": "Una joven rebelde descubre que un virus digital está devolviendo los recuerdos borrados por el Estado, solo para descubrir que el líder de la resistencia es quien creó el sistema opresor que quiere destruir.",
+    "high_concept": "V de Vendetta se encuentra con Her - con un giro de The Sixth Sense",
+    "genres": ["Distópico", "Young Adult", "Ciencia Ficción", "Thriller Político"],
+    "themes": [
+      "Memoria e identidad: Sin recuerdos, ¿quiénes somos?",
+      "Eugenesia y valor humano: ¿Quién decide qué vida vale la pena?",
+      "Control vs Caos: ¿Es mejor dictadura estable que libertad caótica?",
+      "Fines vs Medios: ¿La meta de salvar la humanidad justifica oprimir individuos?",
+      "Legado familiar: ¿Estamos destinados a repetir errores de antepasados?"
+    ]
   },
   "world_building": {
-    "setting_description": "TBD",
-    "rules_physics_magic": "TBD",
-    "societal_structure": "TBD"
+    "setting_description": "Metrópolis brutalista de 50 niveles verticales, 150 años después del colapso. Arquitectura de concreto con hologramas omnipresentes. Distritos exteriores (niveles 1-15) vs Núcleo de élite (niveles 40-50). Población de 10 millones mantenida exactamente por control genético.",
+    "time_period": "Futuro post-colapso, aproximadamente año 2200",
+    "aesthetic": "Arquitectura brutalista degradada, hologramas de propaganda constantes, desigualdad visible por nivel vertical, tecnología avanzada pero decadente",
+    "rules_physics_magic": "Sin magia. Tecnología: hologramas interactivos, implantes de memoria, red de vigilancia, algoritmos de clasificación genética. Virus digital (Mnemosyne) se propaga por contacto visual con hologramas infectados.",
+    "societal_structure": "Sistema de castas genéticas: Aptos (élite genética, pueden reproducirse libremente), Condicionales (restricciones reproductivas), Vetados (esterilización forzada). Gobierno totalitario liderado por Consejo Eugenésico. Guardianes (soldados sin familia) mantienen orden. Resistencia opera en clandestinidad.",
+    "key_locations": [
+      "Distritos Exteriores (niveles 1-15): Superpoblados, escasos recursos, vigilancia constante",
+      "El Núcleo (niveles 40-50): Elite genética, lujo, laboratorios eugenésicos",
+      "Red de Túneles Prohibidos: Donde opera la resistencia",
+      "Archivo Central: Donde se almacenan todos los recuerdos borrados"
+    ]
   },
   "narrative_mechanics": {
-    "conflict_vector": "TBD",
-    "oblique_constraint_application": "TBD",
-    "inciting_incident": "TBD",
-    "stakes": "TBD",
-    "pacing_guide": "TBD"
+    "conflict_vector": "Individuo (Kira) contra sistema totalitario + verdad contra propaganda + familia dividida (hermana gemela enemiga)",
+    "oblique_constraint_application": "work at a different speed - La resistencia opera lentamente mientras el virus Mnemosyne acelera todo exponencialmente",
+    "inciting_incident": "Kira presencia cómo el virus Mnemosyne infecta a su vecina, revelando que sus hijos fueron asesinados por el Estado. Kira investiga el origen y es reclutada por la resistencia.",
+    "stakes": "Personales: Salvar a su hermana gemela del lado enemigo. Globales: Detener genocidio programado de 'defectuosos genéticos'. Existenciales: Preservar memoria colectiva de la humanidad.",
+    "pacing_guide": "Rápido con momentos de respiro. Acto I (caps 1-10): Establecer mundo y reclutar a Kira. Acto II (caps 11-25): Infiltración, revelaciones, traiciones. Acto III (caps 26-35): Confrontación final, elección moral, resolución.",
+    "plot_twists": [
+      "El Arquitecto (líder de resistencia) es Dr. Elias Vex, tío de Kira y creador del sistema",
+      "Hermana gemela de Kira está viva, criada como Directora de Eugenesia",
+      "Jax (aliado romántico) reportaba al Arquitecto pero cambia de bando",
+      "Mara (mentora) traiciona a Kira al descubrir que su ADN fue usado para crear Guardianes",
+      "Mnemosyne fue creado por El Arquitecto como prueba final de 'incorruptibles'"
+    ]
   },
   "characters": {
     "protagonist": {
-      "summary": "TBD",
-      "want": "TBD",
-      "need": "TBD",
-      "wound": "TBD",
-      "arc": "TBD"
+      "name": "Kira Vex",
+      "age": 17,
+      "occupation": "Mensajera ilegal entre distritos, trafica información y objetos prohibidos",
+      "summary": "Hija de científicos Vetados que la concibieron ilegalmente. Vive con identidad genética falsa. Memoria eidética natural (ironía: sistema que borra recuerdos no funciona en ella).",
+      "want": "Vengarse del sistema que ejecutó a sus padres cuando tenía 12 años",
+      "need": "Aprender que venganza sin visión de futuro solo perpetúa el ciclo de violencia",
+      "wound": "Pérdida de padres + descubrimiento de que su hermana gemela fue 'eliminada' (realmente robada)",
+      "arc": "Venganza → Justicia → Liderazgo reluctante. Aprende que destruir no es suficiente, debe construir algo mejor.",
+      "strengths": "Memoria perfecta, habilidad para leer personas, conoce rutas secretas de la ciudad, leal a sus principios",
+      "flaws": "Confianza ciega en figuras de autoridad que parecen rebeldes, vengativa, dificultad para perdonar",
+      "voice": "Directa, sarcástica cuando está asustada, poética al recordar a sus padres"
     },
     "antagonist": {
-      "summary": "TBD",
-      "goal": "TBD",
-      "method": "TBD",
-      "relation": "TBD"
+      "name": "Dr. Elias Vex (El Arquitecto)",
+      "age": 55,
+      "summary": "Hermano del padre de Kira. Hace 30 años creó sistema de control genético para 'salvar humanidad' tras colapso. Fundó resistencia al ver corrupción del sistema, pero busca reformarlo, no destruirlo.",
+      "goal": "Guiar humanidad hacia 'perfección genética' mediante selección controlada. Usar resistencia como válvula de escape para eliminar disidentes peligrosos.",
+      "method": "Manipulación, crear pruebas morales (como Mnemosyne), mantener control de ambos lados del conflicto",
+      "relation": "Tío de Kira. Genuinamente la ama pero cree que debe 'probarla' para ver si es digna de liderar el nuevo mundo.",
+      "philosophy": "La humanidad necesita ser guiada, no libre. La libertad total llevó al colapso. Control benevolente es la única salvación."
     },
-    "key_supporting": []
+    "key_supporting": [
+      {
+        "name": "Jax",
+        "role": "Aliado romántico / Hacker",
+        "age": 19,
+        "arc": "Reportaba al Arquitecto sin saber sus verdaderas intenciones. Traiciona confianza de Kira pero se redime sacrificándose.",
+        "function": "Interés romántico, expertise técnica, representa redención"
+      },
+      {
+        "name": "Mara",
+        "role": "Mentora / Guardiana desertora",
+        "age": 21,
+        "arc": "Entrena a Kira en combate. Traiciona al descubrir que ADN de Kira se usó para crearla (es técnicamente su 'hija' genética).",
+        "function": "Mentora que falla, representa dolor de descubrir verdades sobre identidad"
+      },
+      {
+        "name": "Hermana Gemela (Nombre a definir en draft)",
+        "role": "Co-antagonista / Directora de Eugenesia",
+        "age": 17,
+        "arc": "Criada por el sistema, genuinamente cree en eugenesia. Confrontación con Kira la hace dudar.",
+        "function": "Espejo oscuro de Kira, representa camino que pudo tomar"
+      }
+    ]
   },
   "style_guidelines": {
-    "tone": "TBD",
-    "pov": "TBD",
-    "tense": "TBD",
-    "show_dont_tell_examples": []
+    "tone": "Oscuro pero con chispas de esperanza, intenso, urgente. Evita nihilismo total - siempre hay razones para luchar.",
+    "pov": "Primera persona (Kira Vex) para máxima inmersión emocional",
+    "tense": "Presente para inmediatez y tensión constante",
+    "voice_notes": "Voz de Kira: directa, observadora, sarcasmo como defensa, ocasionalmente vulnerable. Evita jerga excesiva pero usa términos del mundo (Aptos, Vetados, Núcleo).",
+    "show_dont_tell_examples": [
+      "En lugar de 'Kira estaba triste', mostrar: 'Los hologramas publicitarios prometían familias felices. Aparté la mirada.'",
+      "En lugar de 'El sistema era opresor', mostrar: 'Un Guardián arrestó a una niña de ocho años por jugar en el nivel equivocado.'",
+      "En lugar de 'Amaba a Jax', mostrar: 'Cuando sus dedos rozaron los míos en la oscuridad del túnel, olvidé por un segundo que estábamos huyendo.'"
+    ]
   },
   "market_fit": {
-    "audience": "TBD",
-    "comparables": []
+    "target_audience": "18-25 años, hispanohablante, lectores frecuentes de YA distópico",
+    "target_wordcount": "80,000-95,000 palabras",
+    "series_potential": "Libro 1 de trilogía potencial. Libro 2: Guerra con ciudades-estado rivales. Libro 3: Verdad sobre colapso original.",
+    "comparables": [
+      "Los Juegos del Hambre (rebelión contra sistema, sacrificios, mentor ambiguo)",
+      "Divergente (sistema de castas, elegir bando, familia dividida)",
+      "The Handmaid's Tale (control reproductivo, pero enfoque genético no religioso)",
+      "Black Mirror (tecnología como herramienta de opresión)",
+      "Red Queen (castas + habilidad oculta del protagonista)"
+    ],
+    "unique_selling_points": [
+      "Antagonista que es fundador tanto del sistema como de la resistencia",
+      "Hermana gemela criada como enemiga (conflicto familiar shakesperiano)",
+      "Virus de memoria como catalizador en lugar de rebelión militar clásica",
+      "Protagonista con memoria perfecta en mundo que borra recuerdos (ironía)",
+      "Dilema moral: destruir vs reformar, sin respuesta fácil"
+    ]
+  },
+  "hook_opening": {
+    "first_line": "El día que los muertos empezaron a recordar, yo estaba robando medicinas para una anciana que no existía en ningún registro.",
+    "first_chapter_goal": "Establecer voz de Kira, mostrar mundo opresivo, introducir virus Mnemosyne con impacto visceral",
+    "first_act_climax": "Kira conoce al Arquitecto y es reclutada por la resistencia, sin saber que él es su tío"
   }
 }

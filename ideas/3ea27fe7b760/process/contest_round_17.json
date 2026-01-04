@@ -1,0 +1,30 @@
+{
+  "pool": "ideas/contest",
+  "picks": [
+    {
+      "index": 1,
+      "path": "ideas/contest/idea_027.md",
+      "filename": "idea_027.md"
+    },
+    {
+      "index": 2,
+      "path": "ideas/contest/idea_081.md",
+      "filename": "idea_081.md"
+    },
+    {
+      "index": 3,
+      "path": "ideas/contest/idea_085.md",
+      "filename": "idea_085.md"
+    },
+    {
+      "index": 4,
+      "path": "ideas/contest/idea_062.md",
+      "filename": "idea_062.md"
+    },
+    {
+      "index": 5,
+      "path": "ideas/contest/idea_093.md",
+      "filename": "idea_093.md"
+    }
+  ]
+}

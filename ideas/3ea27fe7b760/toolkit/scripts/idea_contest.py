@@ -10,7 +10,7 @@ from typing import Dict, List, Optional
 
 
 def idea_root(script_dir: Path) -> Path:
-    return script_dir.parents[2]
+    return script_dir.parents[1]
 
 
 def list_pool(pool_dir: Path) -> List[Path]:
