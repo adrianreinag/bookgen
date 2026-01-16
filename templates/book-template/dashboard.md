@@ -56,7 +56,6 @@ LIMIT 10
 ```
 
 ## Tareas abiertas
-```dataview
-TASK FROM ""
-WHERE !completed
+```tasks
+not done
 ```

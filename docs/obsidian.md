@@ -25,7 +25,7 @@ un dashboard y plantillas para crear notas rapido.
 ## Plugins recomendados (opcionales)
 
 - Core: Templates, Backlinks, Graph, Outline.
-- Community: Dataview (dashboards), Templater (automatizar notas), Longform (manuscrito), QuickAdd (atajos).
+- Community: Dataview (dashboards), Tasks (tareas), Templater (automatizar notas), Longform (manuscrito), QuickAdd (atajos).
 
 ## MCP (Claude Code)
 
@@ -46,6 +46,11 @@ Las plantillas incluyen `type`, `status` y `tags` para consultas y filtros. Ajus
 ## Notas sobre Dataview
 
 Los bloques `dataview` en `dashboard.md` son opcionales. Si el plugin no esta instalado,
+Obsidian los muestra como codigo normal. No rompen el vault.
+
+## Notas sobre Tasks
+
+Los bloques `tasks` en `dashboard.md` son opcionales. Si el plugin no esta instalado,
 Obsidian los muestra como codigo normal. No rompen el vault.
 
 ## Motivacion tecnica

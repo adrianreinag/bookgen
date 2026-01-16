@@ -41,7 +41,6 @@ SORT file.mtime DESC
 ```
 
 ## Tareas abiertas
-```dataview
-TASK FROM ""
-WHERE !completed
+```tasks
+not done
 ```
