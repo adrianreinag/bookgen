@@ -1,3 +1,9 @@
+---
+type: glossary
+status: active
+tags: [bible, glossary]
+---
+
 # Glosario
 
 ## Terminos del mundo
@@ -14,3 +20,7 @@
 
 ## Nombres propios y alias
 - Nombre: variantes permitidas.
+
+## Enlaces
+- [[bible/seed]]
+- [[bible/timeline]]

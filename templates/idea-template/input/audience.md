@@ -1,3 +1,9 @@
+---
+type: input
+status: draft
+tags: [input]
+---
+
 # Publico objetivo
 
 ## Perfil base
@@ -19,3 +25,7 @@
 ## Motivacion de lectura
 - Que busca sentir:
 - Que quiere evitar:
+
+## Enlaces
+- [[input/index]]
+- [[ideas/index]]

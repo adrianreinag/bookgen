@@ -1,3 +1,9 @@
+---
+type: timeline
+status: active
+tags: [bible, timeline]
+---
+
 # Cronologia Maestra
 
 ## Convenciones
@@ -28,3 +34,7 @@
 | Tiempo | Evento | Impacto | Fuente |
 | --- | --- | --- | --- |
 | TBD | | | |
+
+## Enlaces
+- [[structure/outline]]
+- [[manuscript/index]]

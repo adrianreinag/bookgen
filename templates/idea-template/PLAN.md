@@ -24,7 +24,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Elegir lente de genero y listas de palabras (si aplica).
 - [ ] Generar ideas de forma individual, no en batch.
 - [ ] Ejecutar `idea-randomizer` una vez por idea (ideal con `--emit-meta`) y registrar listas, picks y seed en `process/exploration_log.md`.
-- [ ] Generar exactamente 20 ideas (ni mas ni menos) en `ideas/approved/` con un archivo Markdown por idea.
+- [ ] Generar exactamente 20 ideas (ni mas ni menos) en `ideas/` con un archivo Markdown por idea.
 - [ ] Usar `ideas/idea_card_template.md` en cada archivo y completar todos los campos con bullets concisos, salvo el argumento.
 - [ ] Agregar un parrafo explicando el posible argumento de la novela en `Argumento posible`.
 - [ ] Asegurar que el argumento incluye protagonista, objetivo, obstaculo y apuestas.
@@ -49,7 +49,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Expandir worldbuilding sensorial de las 5 finalistas.
 - [ ] Expandir protagonista, antagonista, tema y arco.
 - [ ] Definir gancho y punto de entrada narrativo.
-- [ ] Guardar la expansion dentro de cada archivo en `ideas/approved/`.
+- [ ] Guardar la expansion dentro de cada archivo en `ideas/`.
 
 ## 5. Handoff a book-template (5 salidas)
 - [ ] Completar `handoff/finalists/seed_01.md` ... `seed_05.md`.

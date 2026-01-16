@@ -219,7 +219,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Redactar escena 3 siguiendo MRU.
 - [ ] Continuar hasta completar el capitulo.
 - [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Registrar hechos nuevos en seccion "NEW FACTS".
 - [ ] Guardar en `manuscript/drafts/chapter_01_v1.md`.
 
 ## 8.2 Draft capitulo 02
@@ -231,7 +231,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Redactar escena 3 siguiendo MRU.
 - [ ] Continuar hasta completar el capitulo.
 - [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Registrar hechos nuevos en seccion "NEW FACTS".
 - [ ] Guardar en `manuscript/drafts/chapter_02_v1.md`.
 
 ## 8.3 Draft capitulo 03
@@ -243,7 +243,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Redactar escena 3 siguiendo MRU.
 - [ ] Continuar hasta completar el capitulo.
 - [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Registrar hechos nuevos en seccion "NEW FACTS".
 - [ ] Guardar en `manuscript/drafts/chapter_03_v1.md`.
 
 ## 8.4 Draft capitulo 04
@@ -255,7 +255,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Redactar escena 3 siguiendo MRU.
 - [ ] Continuar hasta completar el capitulo.
 - [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Registrar hechos nuevos en seccion "NEW FACTS".
 - [ ] Guardar en `manuscript/drafts/chapter_04_v1.md`.
 
 ## 8.5 Draft capitulo 05
@@ -267,7 +267,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Redactar escena 3 siguiendo MRU.
 - [ ] Continuar hasta completar el capitulo.
 - [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Registrar hechos nuevos en seccion "NEW FACTS".
 - [ ] Guardar en `manuscript/drafts/chapter_05_v1.md`.
 
 ## 8.6 Draft capitulo 06
@@ -279,7 +279,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Redactar escena 3 siguiendo MRU.
 - [ ] Continuar hasta completar el capitulo.
 - [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Registrar hechos nuevos en seccion "NEW FACTS".
 - [ ] Guardar en `manuscript/drafts/chapter_06_v1.md`.
 
 ## 8.7 Draft capitulo 07
@@ -291,7 +291,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Redactar escena 3 siguiendo MRU.
 - [ ] Continuar hasta completar el capitulo.
 - [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Registrar hechos nuevos en seccion "NEW FACTS".
 - [ ] Guardar en `manuscript/drafts/chapter_07_v1.md`.
 
 ## 8.8 Draft capitulo 08
@@ -303,7 +303,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Redactar escena 3 siguiendo MRU.
 - [ ] Continuar hasta completar el capitulo.
 - [ ] Etiquetar objetos o entidades clave (si se usa RAG por tags).
-- [ ] Registrar hechos nuevos en seccion "New facts".
+- [ ] Registrar hechos nuevos en seccion "NEW FACTS".
 - [ ] Guardar en `manuscript/drafts/chapter_08_v1.md`.
 
 ## 9. Consistencia y SOT

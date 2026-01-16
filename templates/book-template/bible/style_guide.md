@@ -1,3 +1,9 @@
+---
+type: style_guide
+status: draft
+tags: [bible, style]
+---
+
 # Style Guide
 
 ## Voz y tono
@@ -39,3 +45,8 @@
 
 ## Consistencia
 - Respetar glosario, nombres y capitalizacion.
+
+## Enlaces
+- [[bible/seed]]
+- [[structure/outline]]
+- [[manuscript/index]]

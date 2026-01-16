@@ -1,3 +1,9 @@
+---
+type: input
+status: draft
+tags: [input]
+---
+
 # Brief de ideacion
 
 ## Objetivo
@@ -28,3 +34,8 @@
 
 ## Entrega
 - Numero de ideas y formato esperado:
+
+## Enlaces
+- [[input/index]]
+- [[ideas/index]]
+- [[process/exploration_log]]

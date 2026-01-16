@@ -1,3 +1,11 @@
+---
+type: character
+role: antagonista
+status: active
+aliases: []
+tags: [character]
+---
+
 # Personaje: Antagonista
 
 ## Rol
@@ -47,3 +55,8 @@
 
 ## Notas de continuidad
 - Detalles inmutables:
+
+## Enlaces
+- Beats: [[structure/beats/chapter_01_beats]]
+- Drafts: [[manuscript/drafts/chapter_01_v1]]
+- Lugares: [[bible/locations/escenario_principal]]

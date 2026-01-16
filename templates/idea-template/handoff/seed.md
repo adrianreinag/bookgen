@@ -1,3 +1,9 @@
+---
+type: seed
+status: finalist
+tags: [handoff, seed]
+---
+
 # Seed para book-template (final elegida)
 
 Usa este archivo solo para la final elegida. Las 5 finalistas viven en
@@ -57,3 +63,8 @@ Usa este archivo solo para la final elegida. Las 5 finalistas viven en
 
 ## Necesidades de investigacion
 - Temas o areas a verificar:
+
+## Enlaces
+- [[handoff/index]]
+- [[process/decision_log]]
+- [[ideas/index]]

@@ -57,6 +57,17 @@ def extract_draft_section(markdown: str) -> tuple[str | None, list[str]]:
     return title, draft_lines
 
 
+def strip_frontmatter(markdown: str) -> str:
+    lines = markdown.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return markdown
+
+    for idx in range(1, len(lines)):
+        if lines[idx].strip() == "---":
+            return "\n".join(lines[idx + 1 :]).lstrip() + "\n"
+    return markdown
+
+
 def iter_latest_chapter_drafts(drafts_dir: Path) -> list[Path]:
     candidates = sorted(drafts_dir.glob("chapter_*_v*.md"))
     if not candidates:
@@ -209,6 +220,8 @@ def main() -> int:
             )
             return 1
         manuscript_md = final_manuscript_path.read_text(encoding="utf-8")
+
+    manuscript_md = strip_frontmatter(manuscript_md)
 
     manuscript_for_export = add_latex_chapter_pagebreaks(manuscript_md)
     with tempfile.NamedTemporaryFile(

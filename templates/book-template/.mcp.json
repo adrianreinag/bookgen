@@ -1,0 +1,9 @@
+{
+  "mcpServers": {
+    "vault": {
+      "command": "npx",
+      "args": ["-y", "@mauricio.wolff/mcp-obsidian@latest", "."],
+      "type": "stdio"
+    }
+  }
+}

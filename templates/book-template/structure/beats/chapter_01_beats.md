@@ -1,3 +1,10 @@
+---
+type: beats
+chapter: "01"
+status: planned
+tags: [beats]
+---
+
 # Chapter 01 Beats
 
 ## Meta
@@ -7,6 +14,13 @@
 - Ubicacion principal:
 - Objetivo del capitulo:
 - Valor inicial -> valor final:
+
+## Links
+- Outline: [[structure/outline#Capitulo 01 - [titulo]]]
+- Draft: [[manuscript/drafts/chapter_01_v1]]
+- Personajes: [[bible/characters/protagonista]], [[bible/characters/antagonista]]
+- Lugares: [[bible/locations/escenario_principal]]
+- Guia de estilo: [[bible/style_guide]]
 
 ## Escenas (3-6)
 1. Escena 1

@@ -1,3 +1,9 @@
+---
+type: seed
+status: draft
+tags: [bible, seed]
+---
+
 # Idea Semilla
 
 ## Logline (1 sentence)
@@ -50,3 +56,8 @@
 
 ## Necesidades de investigacion
 - Temas o areas a verificar:
+
+## Enlaces clave
+- [[bible/style_guide]]
+- [[bible/timeline]]
+- [[structure/outline]]

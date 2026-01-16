@@ -1,3 +1,9 @@
+---
+type: outline
+status: draft
+tags: [structure, outline]
+---
+
 # Outline
 
 ## Metadatos del proyecto
@@ -6,6 +12,12 @@
 - POV:
 - Longitud objetivo (palabras):
 - Estructura: three act / save the cat / kisho ten ketsu
+
+## Enlaces base
+- [[bible/seed]]
+- [[bible/style_guide]]
+- [[bible/timeline]]
+- [[structure/index]]
 
 ## Acto 1 - Setup (0-25%)
 
@@ -16,6 +28,7 @@
 - Ubicacion:
 - Objetivo y conflicto:
 - Hook final:
+- Beats: [[structure/beats/chapter_01_beats]]
 
 ### Capitulo 02 - [titulo]
 - Proposito:
@@ -24,6 +37,7 @@
 - Ubicacion:
 - Objetivo y conflicto:
 - Hook final:
+- Beats: [[structure/beats/chapter_02_beats]]
 
 ## Acto 2A - Confrontacion (25-50%)
 
@@ -34,6 +48,7 @@
 - Ubicacion:
 - Objetivo y conflicto:
 - Hook final:
+- Beats: [[structure/beats/chapter_03_beats]]
 
 ### Capitulo 04 - [titulo]
 - Proposito:
@@ -42,6 +57,7 @@
 - Ubicacion:
 - Objetivo y conflicto:
 - Hook final:
+- Beats: [[structure/beats/chapter_04_beats]]
 
 ## Acto 2B - Crisis (50-75%)
 
@@ -52,6 +68,7 @@
 - Ubicacion:
 - Objetivo y conflicto:
 - Hook final:
+- Beats: [[structure/beats/chapter_05_beats]]
 
 ### Capitulo 06 - [titulo]
 - Proposito:
@@ -60,6 +77,7 @@
 - Ubicacion:
 - Objetivo y conflicto:
 - Hook final:
+- Beats: [[structure/beats/chapter_06_beats]]
 
 ## Acto 3 - Resolucion (75-100%)
 
@@ -70,6 +88,7 @@
 - Ubicacion:
 - Objetivo y conflicto:
 - Hook final:
+- Beats: [[structure/beats/chapter_07_beats]]
 
 ### Capitulo 08 - [titulo]
 - Proposito:
@@ -78,6 +97,7 @@
 - Ubicacion:
 - Objetivo y conflicto:
 - Hook final:
+- Beats: [[structure/beats/chapter_08_beats]]
 
 ## Mapa de beats (opcional)
 - Opening Image -> Capitulo __

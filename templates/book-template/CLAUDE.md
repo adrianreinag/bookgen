@@ -1,38 +1,53 @@
-# Sistema de generacion de libros con Claude Code
+# Sistema de libros (Obsidian + Claude Code)
 
 ## Proposito
-Este repositorio es un template para crear libros con una arquitectura multi-agente.
-La memoria viva del proyecto no es la ventana de contexto, sino el sistema de archivos.
-La Fuente de la Verdad (SOT) vive en `bible/` y gobierna toda la estructura y la prosa.
+Este template crea un libro con una boveda Obsidian por proyecto. La fuente de la verdad
+vive en archivos Markdown y el grafo de enlaces mantiene la coherencia. La IA opera sobre
+el sistema de archivos, no sobre una ventana de chat.
+
+## Mapa de la boveda
+- `index.md`: home note y atajos.
+- `dashboard.md`: vistas operativas (Dataview opcional).
+- `bible/index.md`: hub de SOT (personajes, lugares, timeline, glosario).
+- `structure/index.md`: hub de estructura (outline y beats).
+- `manuscript/index.md`: hub de manuscrito (drafts y final).
 
 ## Principios no negociables
-- `bible/` es SOT. No contradigas hechos sin pasar por el archivist.
-- Separacion de fases: seed -> outline -> beats -> draft -> final.
-- No escribir prosa sin beats aprobados en `structure/beats/`.
-- La forma de completar el libro es completar `PLAN.md` paso a paso.
-- Hechos nuevos deben registrarse en la biblia (personajes, lugares, reglas, timeline).
-- Salidas en Markdown y ASCII.
+- `bible/` es la SOT. Ningun draft puede contradecirla.
+- Estructura antes que prosa: seed -> outline -> beats -> draft -> final.
+- Cada nota debe enlazar a sus fuentes y a sus dependencias.
+- Los cambios de hechos se registran en la biblia con su fuente.
+- Las secciones `## DRAFT` y `## NEW FACTS` son obligatorias en drafts.
+- Markdown y ASCII solamente.
 
-## Flujo de trabajo recomendado (fractal)
-1. Seed: completar `bible/seed.md` y `bible/style_guide.md`.
-2. Outline: crear o ajustar `structure/outline.md`.
-3. Beats: detallar capitulo en `structure/beats/chapter_##_beats.md`.
-4. Draft: escribir borrador en `manuscript/drafts/` desde beats.
-5. Consistencia: ejecutar `scan-consistency` y registrar hechos en SOT.
-6. Revision: editar en `manuscript/final/` (macro antes que micro).
-7. Compilacion: actualizar `manuscript/final/full_manuscript.md`.
+## Metodologia integrada
+1. Preparacion: abrir el vault y revisar `index.md`, `dashboard.md` y los hubs.
+2. Seed + estilo: completar `bible/seed.md` y `bible/style_guide.md`.
+3. Biblia: crear personajes y lugares con plantillas; actualizar `bible/timeline.md` y `bible/glossary.md`.
+4. Outline: definir capitulos y enlaces a beats en `structure/outline.md`.
+5. Beats: por capitulo en `structure/beats/`; enlazar personajes, lugares y draft.
+6. Draft: escribir en `manuscript/drafts/` usando beats y guia de estilo.
+7. Consistencia: mover hechos nuevos a la biblia, timeline y glosario.
+8. Final: editar en `manuscript/final/` y compilar `full_manuscript.md`.
 
 ## PLAN.md (plan maestro)
 - Completar `PLAN.md` de principio a fin, en orden.
 - No saltar fases ni tareas.
 - Marcar cada tarea al completarla.
 
+## Enlaces minimos por nota
+- Personajes: link a beats, drafts y lugares relevantes.
+- Lugares: link a beats, drafts y personajes.
+- Beats: link a outline, draft y biblia.
+- Drafts: link a beats, outline, personajes, lugares y guia de estilo.
+- Final: link al draft y beats de origen.
+
 ## Roles y responsabilidades
-- Orchestrator: coordina, valida formatos, no escribe prosa.
-- architect: estructura (outline y beats), ritmo y causalidad.
-- archivist: continuidad, glosario, timeline, SOT.
-- drafter: prosa desde beats, voz y sensorialidad.
-- critic: edicion y pulido sin cambiar hechos.
+- Orchestrator: coordina el plan, valida formatos, no escribe prosa.
+- Architect: estructura (outline y beats), ritmo y causalidad.
+- Archivist: continuidad, glosario, timeline, SOT.
+- Drafter: prosa desde beats, voz y sensorialidad.
+- Critic: edicion y pulido sin cambiar hechos.
 
 ## Politica de SOT y actualizaciones
 - Si aparece un hecho nuevo, registrarlo en `bible/` con fuente.
@@ -40,25 +55,25 @@ La Fuente de la Verdad (SOT) vive en `bible/` y gobierna toda la estructura y la
 - Lugares: `bible/locations/`.
 - Terminos: `bible/glossary.md`.
 - Eventos: `bible/timeline.md`.
-- Si hay conflicto, la SOT manda.
+- Investigacion: `bible/research.md`.
 
 ## Contexto JIT (just in time)
-- Cargar solo lo necesario: capitulo actual, personajes relevantes, lugares, guia de estilo.
-- Evitar cargar manuscrito completo.
-- Resumir si es necesario y guardar el resumen en SOT o notas.
+- Cargar solo lo necesario: capitulo actual, personajes, lugares, guia de estilo.
+- Evitar cargar el manuscrito completo.
+- Resumir y guardar en la biblia si hace falta.
 
 ## Calidad y revision
 - MRU: motivacion externa -> reaccion interna -> accion -> dialogo.
 - Deep POV: evitar verbos filtro (ver, sentir, oir, pensar).
 - Ritmo: alternar escena y secuela; parrafos cortos.
 - Macro antes que micro: trama, ritmo, arcos, luego estilo.
-- El critic no cambia hechos; reporta inconsistencias al archivist.
 
 ## Convenciones de archivos
-- Beats: `structure/beats/chapter_##_beats.md`
-- Drafts: `manuscript/drafts/chapter_##_v1.md`
-- Final: `manuscript/final/chapter_##_final.md`
-- Full: `manuscript/final/full_manuscript.md`
+- Hubs: `bible/index.md`, `structure/index.md`, `manuscript/index.md`.
+- Beats: `structure/beats/chapter_##_beats.md`.
+- Drafts: `manuscript/drafts/chapter_##_v1.md`.
+- Final: `manuscript/final/chapter_##_final.md`.
+- Full: `manuscript/final/full_manuscript.md`.
 
 ## Comandos del proyecto (conceptuales)
 - `develop-beats [n]`: generar beats del capitulo n.
@@ -68,7 +83,7 @@ La Fuente de la Verdad (SOT) vive en `bible/` y gobierna toda la estructura y la
 - `build-chapter [n]`: pipeline completo (beats -> draft -> scan -> update).
 
 ## Inicio rapido
-- Completar `bible/seed.md`.
-- Definir voz en `bible/style_guide.md`.
+- Abrir `index.md`.
+- Completar `bible/seed.md` y `bible/style_guide.md`.
 - Crear outline en `structure/outline.md`.
-- Ejecutar beats del capitulo 1 y pasar a draft.
+- Generar beats del capitulo 01 y pasar a draft.

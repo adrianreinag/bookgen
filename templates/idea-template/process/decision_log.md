@@ -1,3 +1,9 @@
+---
+type: process
+status: active
+tags: [process]
+---
+
 # Decision log
 
 ## Decision 01: Top 5 ganadoras
@@ -15,3 +21,7 @@
 - Razones clave:
 - Riesgos por finalista:
 - Acciones siguientes:
+
+## Enlaces
+- [[process/index]]
+- [[handoff/index]]

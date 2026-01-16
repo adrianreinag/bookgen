@@ -1,3 +1,9 @@
+---
+type: style_guide
+status: draft
+tags: [handoff, style]
+---
+
 # Style Guide (preliminar, solo para la final elegida)
 
 ## Voz y tono
@@ -30,3 +36,6 @@
 
 ## Cliches a evitar
 - 
+
+## Enlaces
+- [[handoff/seed]]

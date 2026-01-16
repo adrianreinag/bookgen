@@ -1,3 +1,9 @@
+---
+type: input
+status: draft
+tags: [input]
+---
+
 # Restricciones y no negociables
 
 ## Debe incluir
@@ -14,3 +20,7 @@
 
 ## Limites legales o de marcas
 - 
+
+## Enlaces
+- [[input/index]]
+- [[ideas/index]]

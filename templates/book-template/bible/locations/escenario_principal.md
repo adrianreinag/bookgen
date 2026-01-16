@@ -1,3 +1,9 @@
+---
+type: location
+status: active
+tags: [location]
+---
+
 # Lugar: Escenario Principal
 
 ## Tipo
@@ -37,3 +43,8 @@
 
 ## Personajes vinculados
 - 
+
+## Enlaces
+- Beats: [[structure/beats/chapter_01_beats]]
+- Drafts: [[manuscript/drafts/chapter_01_v1]]
+- Personajes: [[bible/characters/protagonista]]

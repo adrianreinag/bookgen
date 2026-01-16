@@ -1,3 +1,10 @@
+---
+type: seed
+status: finalist
+rank: "02"
+tags: [handoff, seed]
+---
+
 # Seed finalista (Top 5)
 
 Usa este archivo para una de las 5 finalistas. Si se elige una final,
@@ -57,3 +64,7 @@ copiarla a `handoff/seed.md` y `handoff/seed.json`.
 
 ## Necesidades de investigacion
 - Temas o areas a verificar:
+
+## Enlaces
+- [[handoff/index]]
+- [[process/decision_log]]

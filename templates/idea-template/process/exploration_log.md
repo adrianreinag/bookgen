@@ -1,3 +1,9 @@
+---
+type: process
+status: active
+tags: [process]
+---
+
 # Exploration log (por idea)
 
 Registrar una fila por idea. El paquete de aleatoriedad debe ser unico; si se repite,
@@ -11,3 +17,7 @@ Duplica filas hasta cubrir las 20 ideas.
 | idea_003.md |  |  |  |  |  |  |  |
 | idea_004.md |  |  |  |  |  |  |  |
 | idea_005.md |  |  |  |  |  |  |  |
+
+## Enlaces
+- [[process/index]]
+- [[ideas/index]]
