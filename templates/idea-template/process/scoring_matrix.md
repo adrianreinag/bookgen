@@ -6,7 +6,7 @@ tags: [process]
 
 # Matriz de evaluacion (20 aprobadas)
 
-Completar para las 20 ideas en `ideas/`.
+Completar para las 20 ideas en `pool/approved/`.
 Ponderacion sugerida: Originalidad x2, Uso del paquete x1.5, resto x1.
 Empates: priorizar Originalidad y Uso del paquete.
 
@@ -35,4 +35,4 @@ Empates: priorizar Originalidad y Uso del paquete.
 
 ## Enlaces
 - [[process/index]]
-- [[ideas/index]]
+- [[pool/index]]

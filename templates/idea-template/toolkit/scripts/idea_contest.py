@@ -192,9 +192,9 @@ def main() -> int:
 
     script_dir = Path(__file__).resolve().parent
     root_dir = idea_root(script_dir)
-    default_pool = root_dir / "ideas" / "contest"
-    default_approved = root_dir / "ideas" / "approved"
-    default_rejected = root_dir / "ideas" / "rejected"
+    default_pool = root_dir / "pool" / "contest"
+    default_approved = root_dir / "pool" / "approved"
+    default_rejected = root_dir / "pool" / "rejected"
     default_round = root_dir / "process" / "contest_round.json"
 
     if args.command == "draw":

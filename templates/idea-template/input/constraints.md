@@ -23,4 +23,4 @@ tags: [input]
 
 ## Enlaces
 - [[input/index]]
-- [[ideas/index]]
+- [[pool/index]]

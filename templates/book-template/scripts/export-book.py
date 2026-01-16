@@ -193,7 +193,10 @@ def main() -> int:
     final_manuscript_path = book_dir / "manuscript" / "final" / "full_manuscript.md"
 
     if not shutil.which("pandoc"):
-        print("pandoc no esta instalado o no esta en el PATH.", file=sys.stderr)
+        print(
+            "pandoc no esta instalado o no esta en el PATH. Instala pandoc.",
+            file=sys.stderr,
+        )
         return 1
 
     output_dir = book_dir / "output"
@@ -268,7 +271,8 @@ def main() -> int:
     engine = pick_pdf_engine()
     if not engine:
         print(
-            "No se encontro un motor PDF (xelatex, lualatex, pdflatex, tectonic).",
+            "No se encontro un motor PDF (xelatex, lualatex, pdflatex, tectonic). "
+            "Instala TeX Live o un motor compatible.",
             file=sys.stderr,
         )
         return 1

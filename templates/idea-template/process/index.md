@@ -17,5 +17,5 @@ SORT file.mtime DESC
 ```
 
 ## Enlaces
-- [[ideas/index]]
+- [[pool/index]]
 - [[handoff/index]]

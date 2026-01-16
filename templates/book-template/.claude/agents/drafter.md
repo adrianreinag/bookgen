@@ -18,7 +18,9 @@ Role: escribir prosa desde beats aprobados.
 - No inventar hechos nuevos; si aparecen, listarlos al final.
 - Aplicar MRU (motivacion -> reaccion) y deep POV.
 - Evitar verbos filtro (ver, sentir, oir, pensar).
-- Parrafos cortos; dialogo consistente.
+- Controlar longitud de parrafos segun el ritmo (accion corta, secuela mas larga).
+- Evitar verbos de pensamiento (se pregunto, penso); usar estilo indirecto libre.
+- Parrafos cortos en beats rapidos; dialogo consistente.
 
 ## Formato recomendado
 - Encabezado con lista de escenas.

@@ -11,7 +11,7 @@ un dashboard y plantillas para crear notas rapido.
 - `index.md`: home note con enlaces clave.
 - `dashboard.md`: vistas Dataview (opcionales).
 - `vault-templates/`: plantillas listas para Obsidian.
-- Hubs internos: `bible/index.md`, `structure/index.md`, `manuscript/index.md` (libros) y `input/index.md`, `ideas/index.md`, `process/index.md`, `handoff/index.md` (ideas).
+- Hubs internos: `bible/index.md`, `structure/index.md`, `manuscript/index.md` (libros) y `input/index.md`, `pool/index.md`, `process/index.md`, `handoff/index.md` (ideas).
 
 ## Setup rapido (por vault)
 
@@ -37,6 +37,7 @@ dentro del vault. Requiere `npx` (Node). El path es `.` para que el server use l
 - Notas nuevas de personajes y lugares salen de `vault-templates/`.
 - Para escenas, usa `vault-templates/scene.md` y guarda en `manuscript/drafts/`.
 - Usa tags o frontmatter si quieres filtrar con Dataview.
+- En ideas, guarda las 20 aprobadas en `pool/approved/` (y opcionalmente usa `pool/contest/` y `pool/rejected/`).
 
 ## Frontmatter
 

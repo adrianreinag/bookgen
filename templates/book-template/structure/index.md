@@ -6,10 +6,11 @@ tags: [structure, hub]
 
 # Estructura
 
+Usa `vault-templates/beat.md` para crear beats por capitulo segun el outline.
+
 ## Base
 - [[structure/outline]]
-- [[structure/beats/chapter_01_beats]]
-- [[structure/beats/chapter_02_beats]]
+- [[vault-templates/beat]]
 
 ## Enlaces a biblia
 - [[bible/seed]]

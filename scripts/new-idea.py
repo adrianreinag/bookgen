@@ -43,6 +43,12 @@ def init_git_repo(root: Path) -> None:
         print(f"No se pudo inicializar git en: {root}", file=sys.stderr)
 
 
+def ensure_pool_dirs(root: Path) -> None:
+    pool_dir = root / "pool"
+    for name in ("approved", "contest", "rejected"):
+        (pool_dir / name).mkdir(parents=True, exist_ok=True)
+
+
 def main() -> int:
     parser = argparse.ArgumentParser(
         description="Crea una idea nueva desde plantilla."
@@ -113,6 +119,7 @@ def main() -> int:
             "{{IDEA_SLUG}}": folder_name,
         },
     )
+    ensure_pool_dirs(idea_dir)
     init_git_repo(idea_dir)
     print(f"Idea creada en: {idea_dir}")
     return 0

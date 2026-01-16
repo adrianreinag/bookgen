@@ -1,10 +1,15 @@
 ---
 type: seed
+title: ""
+origin: ""
 status: draft
 tags: [bible, seed]
 ---
 
 # Idea Semilla
+
+## Origen
+- Fuente (idea, nota o enlace):
 
 ## Logline (1 sentence)
 - [FILL]

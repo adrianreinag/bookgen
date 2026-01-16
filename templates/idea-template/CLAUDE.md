@@ -2,27 +2,28 @@
 
 ## Proposito
 Este template crea ideas solidas para libros y entrega 5 semillas finalistas listas para el
-book-template. La boveda integra input, ideas, proceso y handoff mediante enlaces.
+book-template. La boveda integra input, pool, proceso y handoff mediante enlaces.
 
 ## Mapa de la boveda
 - `index.md`: home note y atajos.
 - `dashboard.md`: vistas operativas (Dataview opcional).
 - `input/index.md`: brief, publico y restricciones.
-- `ideas/index.md`: pool de ideas y plantilla base.
+- `pool/index.md`: pool de ideas (approved/contest/rejected) y plantilla base.
 - `process/index.md`: logs, scoring y decisiones.
 - `handoff/index.md`: finalistas y seed final.
 
 ## Principios no negociables
 - `handoff/finalists/` es la SOT de las 5 finalistas.
-- Si hay ganadora final, sincronizar en `handoff/seed.md` y `handoff/seed.json`.
+- Si hay ganadora final, sincronizar en `handoff/seed.md`.
 - Separacion de fases: input -> divergencia -> scoring -> expansion -> handoff.
 - No escribir prosa de libro ni capitulos.
 - Completar `PLAN.md` en orden y marcar tareas.
 - Markdown y ASCII solamente.
+- No mantener JSON duplicado; `seed.md` es la unica fuente.
 
 ## Metodologia integrada
 1. Input: completar `input/brief.md`, `input/audience.md`, `input/constraints.md`.
-2. Divergencia: crear 20 ideas en `ideas/` usando `ideas/idea_card_template.md`.
+2. Divergencia: crear 20 ideas en `pool/approved/` usando `pool/idea_card_template.md`.
 3. Registro: logear cada idea en `process/exploration_log.md`.
 4. Scoring: puntuar en `process/scoring_matrix.md` y registrar Top 5 en `process/decision_log.md`.
 5. Expansion: ampliar las 5 ganadoras y completar `handoff/finalists/seed_0X.md`.
@@ -36,7 +37,7 @@ book-template. La boveda integra input, ideas, proceso y handoff mediante enlace
 ## Enlaces minimos por nota
 - Idea card: link a inputs y `process/exploration_log.md`.
 - Seeds finalistas: link a `process/decision_log.md` y `handoff/index.md`.
-- Seed final: link a `process/decision_log.md` y `ideas/index.md`.
+- Seed final: link a `process/decision_log.md` y `pool/index.md`.
 
 ## Ejecucion autonoma (sin consultas)
 - Si input esta completo, generar 20 ideas sin pedir confirmacion.
@@ -53,7 +54,7 @@ book-template. La boveda integra input, ideas, proceso y handoff mediante enlace
 
 ## Politica de SOT y actualizaciones
 - Si cambia una finalista, actualizar `handoff/finalists/`.
-- Si se elige una final para book-template, actualizar `handoff/seed.json` y `handoff/seed.md`.
+- Si se elige una final para book-template, actualizar `handoff/seed.md`.
 - Registrar listas usadas, picks y seed en `process/exploration_log.md`.
 
 ## Contexto JIT
@@ -69,11 +70,11 @@ book-template. La boveda integra input, ideas, proceso y handoff mediante enlace
 - Claridad de publico y tono.
 
 ## Convenciones de archivos
-- Idea cards: `ideas/idea_card_template.md` -> `ideas/idea_###.md`.
+- Idea cards: `pool/idea_card_template.md` -> `pool/approved/idea_###.md`.
 - Matriz de scoring: `process/scoring_matrix.md`.
 - Decision log: `process/decision_log.md`.
 - Handoff finalistas: `handoff/finalists/seed_01.md` ... `seed_05.md`.
-- Handoff final (opcional): `handoff/seed.md` y `handoff/seed.json`.
+- Handoff final (opcional): `handoff/seed.md`.
 
 ## Comandos conceptuales
 - `generate-ideas [20]`: fase divergente.

@@ -24,7 +24,7 @@ el sistema de archivos, no sobre una ventana de chat.
 1. Preparacion: abrir el vault y revisar `index.md`, `dashboard.md` y los hubs.
 2. Seed + estilo: completar `bible/seed.md` y `bible/style_guide.md`.
 3. Biblia: crear personajes y lugares con plantillas; actualizar `bible/timeline.md` y `bible/glossary.md`.
-4. Outline: definir capitulos y enlaces a beats en `structure/outline.md`.
+4. Outline: reescribir el template y definir capitulos reales en `structure/outline.md`.
 5. Beats: por capitulo en `structure/beats/`; enlazar personajes, lugares y draft.
 6. Draft: escribir en `manuscript/drafts/` usando beats y guia de estilo.
 7. Consistencia: mover hechos nuevos a la biblia, timeline y glosario.
@@ -56,6 +56,7 @@ el sistema de archivos, no sobre una ventana de chat.
 - Terminos: `bible/glossary.md`.
 - Eventos: `bible/timeline.md`.
 - Investigacion: `bible/research.md`.
+- Si el libro viene de una idea, registrar el origen en `bible/seed.md`.
 
 ## Contexto JIT (just in time)
 - Cargar solo lo necesario: capitulo actual, personajes, lugares, guia de estilo.

@@ -1,5 +1,6 @@
 ---
 type: seed
+title: ""
 status: finalist
 rank: "02"
 tags: [handoff, seed]
@@ -8,10 +9,10 @@ tags: [handoff, seed]
 # Seed finalista (Top 5)
 
 Usa este archivo para una de las 5 finalistas. Si se elige una final,
-copiarla a `handoff/seed.md` y `handoff/seed.json`.
+copiarla a `handoff/seed.md`.
 
 ## Metadata
-- Source idea file:
+- Source idea file (pool/approved/idea_###.md):
 - Finalist rank (1-5): 2
 
 ## Logline (1 sentence)

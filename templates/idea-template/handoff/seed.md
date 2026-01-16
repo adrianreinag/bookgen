@@ -1,16 +1,20 @@
 ---
 type: seed
+title: ""
 status: finalist
 tags: [handoff, seed]
 ---
 
 # Seed para book-template (final elegida)
 
+## Titulo de trabajo
+- 
+
 Usa este archivo solo para la final elegida. Las 5 finalistas viven en
 `handoff/finalists/`.
 
 ## Metadata
-- Source idea file:
+- Source idea file (pool/approved/idea_###.md):
 - Finalist rank (1-5):
 
 ## Logline (1 sentence)
@@ -67,4 +71,4 @@ Usa este archivo solo para la final elegida. Las 5 finalistas viven en
 ## Enlaces
 - [[handoff/index]]
 - [[process/decision_log]]
-- [[ideas/index]]
+- [[pool/index]]

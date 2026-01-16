@@ -15,6 +15,5 @@ tags: [manuscript, hub]
 
 ## Enlaces
 - [[structure/outline]]
-- [[structure/beats/chapter_01_beats]]
 - [[bible/style_guide]]
 - [[bible/index]]

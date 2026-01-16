@@ -57,6 +57,12 @@ Con titulo amigable y carpeta legible:
 python3 scripts/new-book.py --title "La ciudad del eco"
 ```
 
+Crear libro desde un seed ganador:
+
+```bash
+python3 scripts/new-book.py --seed-path /ruta/a/idea/handoff/seed.md
+```
+
 Forzar nombre de carpeta (slug):
 
 ```bash
@@ -86,7 +92,7 @@ Dentro de `books/<id>/`:
 Cada carpeta creada en `books/` o `ideas/` funciona como vault independiente.
 Incluye notas `index.md`, `dashboard.md` y plantillas en `vault-templates/`.
 Incluye `.mcp.json` para Claude Code (MCP-Obsidian).
-Incluye hubs internos para navegar bible/structure/manuscript (libros) e input/ideas/process/handoff (ideas).
+Incluye hubs internos para navegar bible/structure/manuscript (libros) e input/pool/process/handoff (ideas).
 Cada vault se inicializa como repo Git al crearse (si `git` esta disponible).
 
 Guia: `docs/obsidian.md`.

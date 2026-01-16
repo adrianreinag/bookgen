@@ -57,6 +57,6 @@ tags: [character]
 - Detalles inmutables:
 
 ## Enlaces
-- Beats: [[structure/beats/chapter_01_beats]]
-- Drafts: [[manuscript/drafts/chapter_01_v1]]
+- Beats: [[structure/beats/chapter_XX_beats]]
+- Drafts: [[manuscript/drafts/chapter_XX_v1]]
 - Lugares: [[bible/locations/escenario_principal]]

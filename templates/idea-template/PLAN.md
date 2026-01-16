@@ -24,14 +24,14 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Elegir lente de genero y listas de palabras (si aplica).
 - [ ] Generar ideas de forma individual, no en batch.
 - [ ] Ejecutar `idea-randomizer` una vez por idea (ideal con `--emit-meta`) y registrar listas, picks y seed en `process/exploration_log.md`.
-- [ ] Generar exactamente 20 ideas (ni mas ni menos) en `ideas/` con un archivo Markdown por idea.
-- [ ] Usar `ideas/idea_card_template.md` en cada archivo y completar todos los campos con bullets concisos, salvo el argumento.
+- [ ] Generar exactamente 20 ideas (ni mas ni menos) en `pool/approved/` con un archivo Markdown por idea.
+- [ ] Usar `pool/idea_card_template.md` en cada archivo y completar todos los campos con bullets concisos, salvo el argumento.
 - [ ] Agregar un parrafo explicando el posible argumento de la novela en `Argumento posible`.
 - [ ] Asegurar que el argumento incluye protagonista, objetivo, obstaculo y apuestas.
 - [ ] Copiar seed, listas y picks en `Paquete de aleatoriedad` de cada idea.
 - [ ] Intentar integrar la mayoria de los picks en logline, mundo y argumento (no decorativo).
 - [ ] Si algun pick no encaja, se puede descartar, pero registrar cual y por que (mantener trazabilidad).
-- [ ] Nombrar archivos como `idea_001.md` ... `idea_020.md`.
+- [ ] Nombrar archivos como `idea_001.md` ... `idea_020.md` dentro de `pool/approved/`.
 - [ ] Para cada idea, usar la skill `idea-randomizer`.
 - [ ] Si un paquete de aleatoriedad se repite, re-ejecutar el randomizer.
 - [ ] Cambiar al menos 2 listas entre ideas consecutivas.
@@ -49,15 +49,12 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Expandir worldbuilding sensorial de las 5 finalistas.
 - [ ] Expandir protagonista, antagonista, tema y arco.
 - [ ] Definir gancho y punto de entrada narrativo.
-- [ ] Guardar la expansion dentro de cada archivo en `ideas/`.
+- [ ] Guardar la expansion dentro de cada archivo en `pool/approved/`.
 
 ## 5. Handoff a book-template (5 salidas)
 - [ ] Completar `handoff/finalists/seed_01.md` ... `seed_05.md`.
-- [ ] Completar `handoff/finalists/seed_01.json` ... `seed_05.json`.
-- [ ] Completar `meta.source_idea` y `meta.finalist_rank` en cada seed JSON.
-- [ ] Si se elige una final, copiarla a `handoff/seed.md` y `handoff/seed.json`.
+- [ ] Si se elige una final, copiarla a `handoff/seed.md`.
 - [ ] Completar `handoff/style_guide.md` solo para la final elegida.
-- [ ] Verificar consistencia entre `handoff/seed.json` y `handoff/seed.md` si existe final.
 
 ## 6. Validacion final
 - [ ] Verificar logline (protagonista + objetivo + obstaculo + apuestas).

@@ -1,10 +1,10 @@
 ---
-type: beat
+type: beats
 chapter: ""
 status: planned
 characters: []
 locations: []
-tags: [beat]
+tags: [beats]
 ---
 
 # Beat: TITULO

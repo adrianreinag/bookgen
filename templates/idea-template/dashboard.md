@@ -8,13 +8,20 @@ tags: [dashboard]
 
 ## Areas
 - [[input/index]]
-- [[ideas/index]]
+- [[pool/index]]
 - [[process/index]]
 - [[handoff/index]]
 
-## Ideas
+## Aprobadas
 ```dataview
-LIST FROM "ideas"
+LIST FROM "pool/approved"
+WHERE type = "idea_card"
+SORT file.name
+```
+
+## Contest (opcional)
+```dataview
+LIST FROM "pool/contest"
 WHERE type = "idea_card"
 SORT file.name
 ```

@@ -11,4 +11,4 @@ tags: [input, hub]
 - [[input/constraints]]
 
 ## Enlaces
-- [[ideas/index]]
+- [[pool/index]]

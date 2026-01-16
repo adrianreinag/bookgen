@@ -31,8 +31,7 @@ tags: [hub]
 ## Estructura
 - [[structure/index]]
 - [[structure/outline]]
-- [[structure/beats/chapter_01_beats]]
-- [[structure/beats/chapter_02_beats]]
+- [[vault-templates/beat]]
 
 ## Manuscrito
 - [[manuscript/index]]
