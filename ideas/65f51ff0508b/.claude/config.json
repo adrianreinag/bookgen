@@ -1,8 +1,0 @@
-{
-  "project_name": "bookgen-idea-template",
-  "language": "es",
-  "encoding": "ascii",
-  "skills": {
-    "idea-randomizer": ".claude/skills/idea-randomizer/SKILL.md"
-  }
-}
