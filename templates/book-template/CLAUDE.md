@@ -25,15 +25,19 @@ el sistema de archivos, no sobre una ventana de chat.
 2. Seed + estilo: completar `bible/seed.md` y `bible/style_guide.md`.
 3. Biblia: crear personajes y lugares con plantillas; actualizar `bible/timeline.md` y `bible/glossary.md`.
 4. Outline: reescribir el template y definir capitulos reales en `structure/outline.md`.
-5. Beats: por capitulo en `structure/beats/`; enlazar personajes, lugares y draft.
-6. Draft: escribir en `manuscript/drafts/` usando beats y guia de estilo.
-7. Consistencia: mover hechos nuevos a la biblia, timeline y glosario.
-8. Final: editar en `manuscript/final/` y compilar `full_manuscript.md`.
+5. Critica y replanificacion global (iterativa) antes de beats.
+6. Beats: por capitulo en `structure/beats/`; enlazar personajes, lugares y draft.
+7. Draft: escribir en `manuscript/drafts/` usando beats y guia de estilo (v1).
+8. Critica global post-borradores (iterativa) y nuevas versiones (v2, v3...).
+9. Consistencia: mover hechos nuevos a la biblia, timeline y glosario.
+10. Final: editar en `manuscript/final/` y compilar `full_manuscript.md`.
 
 ## PLAN.md (plan maestro)
-- Completar `PLAN.md` de principio a fin, en orden.
-- No saltar fases ni tareas.
-- Marcar cada tarea al completarla.
+- Seguir `PLAN.md` de principio a fin, en orden estricto y sin adelantar tareas.
+- No pasar de punto hasta completar al 100% el punto actual.
+- Marcar cada tarea al completarla. Si no se sigue el plan, el resultado es incorrecto.
+- Los puntos iterativos se repiten hasta aprobarse y se registran en `manuscript/feedback/critique_log.md`.
+- Toda revision crea una nueva version (v2, v3, v4...) y nunca sobrescribe.
 
 ## Enlaces minimos por nota
 - Personajes: link a beats, drafts y lugares relevantes.
@@ -47,7 +51,7 @@ el sistema de archivos, no sobre una ventana de chat.
 - Architect: estructura (outline y beats), ritmo y causalidad.
 - Archivist: continuidad, glosario, timeline, SOT.
 - Drafter: prosa desde beats, voz y sensorialidad.
-- Critic: edicion y pulido sin cambiar hechos.
+- Critic: critica estructurada con severidad (obligatorio/recomendado/opcional) y veredicto, sin cambiar hechos.
 
 ## Politica de SOT y actualizaciones
 - Si aparece un hecho nuevo, registrarlo en `bible/` con fuente.
@@ -72,7 +76,7 @@ el sistema de archivos, no sobre una ventana de chat.
 ## Convenciones de archivos
 - Hubs: `bible/index.md`, `structure/index.md`, `manuscript/index.md`.
 - Beats: `structure/beats/chapter_##_beats.md`.
-- Drafts: `manuscript/drafts/chapter_##_v1.md`.
+- Drafts: `manuscript/drafts/chapter_##_vN.md` (v1, v2, v3...).
 - Final: `manuscript/final/chapter_##_final.md`.
 - Full: `manuscript/final/full_manuscript.md`.
 

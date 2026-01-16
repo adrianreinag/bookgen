@@ -2,6 +2,15 @@
 
 Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 
+## Reglas de ejecucion (obligatorio)
+- Seguir el plan en orden estricto, paso a paso.
+- No adelantar fases ni tareas. Si no se sigue el plan, el resultado es incorrecto.
+- Marcar cada tarea al completarla.
+- No pasar al siguiente punto hasta completar al 100% el punto actual.
+- Si un punto es iterativo, repetir el ciclo hasta aprobarlo y documentar cada ronda.
+- Toda revision crea una nueva version (v2, v3, v4...) y nunca sobrescribe una version anterior.
+- Si hay replanificacion, actualizar `PLAN.md` de inmediato.
+
 ## 0. Preparacion del proyecto
 - [ ] Confirmar objetivo del libro (ficcion o no ficcion).
 - [ ] Definir audiencia objetivo.
@@ -98,8 +107,17 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Calcular numero estimado de capitulos.
 - [ ] Redactar `structure/outline.md` completo con resumen por capitulo.
 - [ ] TAREA CRITICA: actualizar este `PLAN.md` desplegando beats y drafts para el numero real de capitulos.
+- [ ] Confirmar que este punto esta 100% completo antes de pasar al 7.
 
-## 7. Fase de Beats (ciclo iterativo por capitulo)
+## 7. Critica y replanificacion global (iterativa)
+- [ ] Confirmar que el punto 6 esta completo al 100%.
+- [ ] Invocar al Critic para revisar seed, guia de estilo, SOT y estructura completa.
+- [ ] Recibir reporte estructurado con severidad (obligatorio / recomendado / opcional) y veredicto.
+- [ ] Aplicar cambios necesarios y actualizar `PLAN.md` si hay replanificacion.
+- [ ] Reinvocar al Critic y repetir el ciclo hasta obtener veredicto "APTO PARA BEATS".
+- [ ] Registrar cada ronda en `manuscript/feedback/critique_log.md`.
+
+## 8. Fase de Beats (ciclo iterativo por capitulo)
 - [ ] Crear `structure/beats/chapter_XX_beats.md` usando `vault-templates/beat.md`.
 - [ ] Cargar SOT relevante (personajes, lugares, timeline, glosario).
 - [ ] Definir meta del capitulo (POV, tiempo, objetivo).
@@ -112,7 +130,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Cerrar con gancho.
 - [ ] Registrar hechos nuevos para la biblia.
 
-## 8. Fase de Borrador (ciclo iterativo por capitulo)
+## 9. Fase de Borrador (ciclo iterativo por capitulo)
 - [ ] Leer beats y guia de estilo.
 - [ ] Preparar contexto JIT (solo archivos necesarios).
 - [ ] Listar escenas al inicio del draft.
@@ -122,7 +140,21 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Registrar hechos nuevos en seccion "NEW FACTS".
 - [ ] Guardar en `manuscript/drafts/chapter_XX_v1.md`.
 
-## 9. Consistencia y SOT (por capitulo)
+## 10. Critica global del libro (post-borradores, iterativa)
+- [ ] Confirmar que todos los capitulos tienen borrador `chapter_XX_v1.md`.
+- [ ] Invocar al Critic para revisar el libro completo (todos los borradores).
+- [ ] Recibir reporte estructurado con severidad y veredicto.
+- [ ] Aplicar cambios creando nuevas versiones por capitulo: `chapter_XX_v2.md`, `chapter_XX_v3.md`, etc (no sobrescribir).
+- [ ] Reinvocar al Critic y repetir el ciclo hasta que solo queden mejoras opcionales.
+- [ ] Registrar cada ronda en `manuscript/feedback/critique_log.md`.
+
+## 11. Critica y revision del borrador (por capitulo, si se necesita)
+- [ ] Invocar al Critic para revisar un capitulo especifico.
+- [ ] Recibir reporte estructurado con severidad.
+- [ ] Realizar ajustes necesarios.
+- [ ] Guardar en la siguiente version incremental: `manuscript/drafts/chapter_XX_vN.md`.
+
+## 12. Consistencia y SOT (por capitulo)
 - [ ] Ejecutar scan-consistency del capitulo.
 - [ ] Resolver contradicciones detectadas.
 - [ ] Actualizar `bible/characters/` si hay hechos nuevos.
@@ -130,13 +162,13 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Actualizar `bible/glossary.md` si hay terminos nuevos.
 - [ ] Actualizar `bible/timeline.md` con eventos nuevos.
 
-## 10. Lectura progresiva y memoria (por capitulo)
+## 13. Lectura progresiva y memoria (por capitulo)
 - [ ] Ejecutar lectura progresiva del capitulo.
 - [ ] Registrar criticas en `manuscript/feedback/critique_log.md`.
 - [ ] Actualizar `manuscript/context/story_so_far.md` con resumen denso (CoD).
 - [ ] Actualizar `manuscript/context/memory_log.json` con eventos clave.
 
-## 11. Revision editorial (por capitulo)
+## 14. Revision editorial (por capitulo)
 - [ ] Revision macro (trama, ritmo, arcos).
 - [ ] Revision de escenas y secuelas.
 - [ ] Revision de coherencia de voz.
@@ -145,7 +177,7 @@ Este plan es generico y atomico. Cada tarea puede marcarse al completarla.
 - [ ] Guardar en `manuscript/final/chapter_XX_final.md`.
 - [ ] Redactar notas de edicion y change log.
 
-## 12. Compilacion y cierre (global)
+## 15. Compilacion y cierre (global)
 - [ ] Actualizar indice en `manuscript/final/full_manuscript.md`.
 - [ ] Concatenar capitulos finales.
 - [ ] Definir titulo final del libro.
