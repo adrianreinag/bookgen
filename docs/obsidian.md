@@ -20,6 +20,7 @@ un dashboard y plantillas para crear notas rapido.
 3. Abre `index.md` y usa los enlaces base.
 4. Si usas Templates, apunta la carpeta a `vault-templates/`.
 5. El vault incluye `.mcp.json` para Claude Code (MCP-Obsidian).
+6. Cada vault se inicializa como repo Git al crearse.
 
 ## Plugins recomendados (opcionales)
 

@@ -87,6 +87,7 @@ Cada carpeta creada en `books/` o `ideas/` funciona como vault independiente.
 Incluye notas `index.md`, `dashboard.md` y plantillas en `vault-templates/`.
 Incluye `.mcp.json` para Claude Code (MCP-Obsidian).
 Incluye hubs internos para navegar bible/structure/manuscript (libros) e input/ideas/process/handoff (ideas).
+Cada vault se inicializa como repo Git al crearse (si `git` esta disponible).
 
 Guia: `docs/obsidian.md`.
 

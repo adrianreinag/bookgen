@@ -5,6 +5,7 @@ import argparse
 from pathlib import Path
 import re
 import shutil
+import subprocess
 import sys
 import uuid
 
@@ -24,6 +25,22 @@ def apply_tokens(root: Path, tokens: dict[str, str]) -> None:
                 updated = updated.replace(key, value)
         if updated != text:
             path.write_text(updated, encoding="utf-8")
+
+
+def init_git_repo(root: Path) -> None:
+    if not shutil.which("git"):
+        print("git no esta instalado; se omite git init.", file=sys.stderr)
+        return
+    try:
+        subprocess.run(
+            ["git", "init"],
+            cwd=root,
+            check=True,
+            stdout=subprocess.DEVNULL,
+            stderr=subprocess.DEVNULL,
+        )
+    except subprocess.CalledProcessError:
+        print(f"No se pudo inicializar git en: {root}", file=sys.stderr)
 
 
 def main() -> int:
@@ -96,6 +113,7 @@ def main() -> int:
             "{{IDEA_SLUG}}": folder_name,
         },
     )
+    init_git_repo(idea_dir)
     print(f"Idea creada en: {idea_dir}")
     return 0
 
