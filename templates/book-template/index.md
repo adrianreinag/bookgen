@@ -8,7 +8,7 @@ tags: [hub]
 
 # {{BOOK_TITLE}}
 
-## Inicio rapido
+## Inicio rápido
 - [[dashboard]]
 - [[bible/index]]
 - [[structure/index]]

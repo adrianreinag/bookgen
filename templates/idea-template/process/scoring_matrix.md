@@ -4,10 +4,10 @@ status: active
 tags: [process]
 ---
 
-# Matriz de evaluacion (20 aprobadas)
+# Matriz de evaluación (20 aprobadas)
 
 Completar para las 20 ideas en `pool/approved/`.
-Ponderacion sugerida: Originalidad x2, Uso del paquete x1.5, resto x1.
+Ponderación sugerida: Originalidad x2, Uso del paquete x1.5, resto x1.
 Empates: priorizar Originalidad y Uso del paquete.
 
 | Idea | Originalidad (1-5, x2) | Conflicto (1-5) | Claridad (1-5) | Mundo (1-5) | Personaje (1-5) | Gancho (1-5) | Viabilidad (1-5) | Uso del paquete (1-5) | Total ponderado | Rango | Notas |

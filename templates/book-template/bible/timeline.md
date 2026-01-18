@@ -4,11 +4,11 @@ status: active
 tags: [bible, timeline]
 ---
 
-# Cronologia Maestra
+# Cronología Maestra
 
 ## Convenciones
-- Usa fechas absolutas o marcas relativas (Dia 0, Semana 1).
-- Cada evento incluye fuente (capitulo o beat).
+- Usa fechas absolutas o marcas relativas (Día 0, Semana 1).
+- Cada evento incluye fuente (capítulo o beat).
 
 ## Prehistoria
 | Tiempo | Evento | Impacto | Fuente |

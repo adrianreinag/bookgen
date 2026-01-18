@@ -4,7 +4,7 @@ status: active
 tags: [bible, research]
 ---
 
-# Investigacion
+# Investigación
 
 ## Fuentes
 - Fuente: resumen, enlace, notas.

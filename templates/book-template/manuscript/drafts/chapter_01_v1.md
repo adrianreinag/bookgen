@@ -5,14 +5,14 @@ status: draft
 tags: [draft]
 ---
 
-# Capitulo 01 Draft v1
+# Capítulo 01 Draft v1
 
 ## Links
 - Beats: [[structure/beats/chapter_01_beats]]
-- Outline: [[structure/outline#Capitulo 01 - [titulo]]]
+- Outline: [[structure/outline#Capítulo 01 - [título]]]
 - Personajes: [[bible/characters/protagonista]], [[bible/characters/antagonista]]
 - Lugares: [[bible/locations/escenario_principal]]
-- Guia de estilo: [[bible/style_guide]]
+- Guía de estilo: [[bible/style_guide]]
 
 ## Scene list
 - Escena 1:
@@ -20,7 +20,7 @@ tags: [draft]
 - Escena 3:
 
 ## DRAFT
-[Escribir aqui el texto del capitulo. Seguir MRU y deep POV.]
+[Escribir aquí el texto del capítulo. Seguir MRU y deep POV.]
 
 ## NEW FACTS (si aparecen)
 - 

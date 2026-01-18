@@ -6,12 +6,12 @@ tags: [final, compiled]
 
 # Manuscrito Completo
 
-## Indice
-1. [[manuscript/final/chapter_01_final|Capitulo 01 - [titulo]]]
-2. [[manuscript/final/chapter_02_final|Capitulo 02 - [titulo]]]
+## Índice
+1. [[manuscript/final/chapter_01_final|Capítulo 01 - [título]]]
+2. [[manuscript/final/chapter_02_final|Capítulo 02 - [título]]]
 
 ## Enlaces
 - [[manuscript/final/chapter_01_final]]
 
 ## Texto compilado
-[Concatenar capitulos finales aqui.]
+[Concatenar capítulos finales aquí.]

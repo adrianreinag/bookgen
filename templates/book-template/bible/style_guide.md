@@ -18,15 +18,15 @@ tags: [bible, style]
 
 ## Ritmo
 - Longitud de frases:
-- Longitud de parrafos:
+- Longitud de párrafos:
 - Alternar escena y secuela:
 
 ## Reglas de escena (MRU)
-- Orden obligatorio: motivacion externa -> reaccion interna -> accion -> dialogo.
+- Orden obligatorio: motivación externa -> reacción interna -> acción -> diálogo.
 - No mezclar causa y efecto.
 
 ## Deep POV
-- Evitar verbos filtro: ver, sentir, oir, pensar, notar, darse cuenta, observar.
+- Evitar verbos filtro: ver, sentir, oír, pensar, notar, darse cuenta, observar.
 - Mostrar emociones con acciones y sensaciones.
 
 ## Lenguaje
@@ -35,16 +35,16 @@ tags: [bible, style]
 - Muletillas a evitar:
 - Adverbios: limitar.
 
-## Dialogo
-- Sistema de dialogo (comillas o guion largo) y mantenerlo.
-- Evitar dialogo on-the-nose.
+## Diálogo
+- Sistema de diálogo (comillas o guion largo) y mantenerlo.
+- Evitar diálogo on-the-nose.
 
-## Descripcion sensorial
-- Minimo 2-3 sentidos por escena.
+## Descripción sensorial
+- Mínimo 2-3 sentidos por escena.
 - Detalles concretos > adjetivos vagos.
 
 ## Consistencia
-- Respetar glosario, nombres y capitalizacion.
+- Respetar glosario, nombres y capitalización.
 
 ## Enlaces
 - [[bible/seed]]

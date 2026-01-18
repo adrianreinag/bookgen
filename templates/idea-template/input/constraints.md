@@ -12,13 +12,13 @@ tags: [input]
 ## Debe evitar
 - 
 
-## Limites de mundo
+## Límites de mundo
 - 
 
-## Limites de tono
+## Límites de tono
 - 
 
-## Limites legales o de marcas
+## Límites legales o de marcas
 - 
 
 ## Enlaces

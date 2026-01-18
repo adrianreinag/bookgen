@@ -4,16 +4,16 @@ status: draft
 tags: [input]
 ---
 
-# Publico objetivo
+# Público objetivo
 
 ## Perfil base
 - Edad:
-- Region/cultura:
+- Región/cultura:
 - Idioma:
-- Habitos de lectura:
+- Hábitos de lectura:
 - Frecuencia de lectura:
 
-## Expectativas del genero
+## Expectativas del género
 - Tropos que esperan:
 - Tropos que rechazan:
 - Nivel de complejidad:
@@ -22,9 +22,9 @@ tags: [input]
 - Temas delicados a evitar:
 - Intensidad de violencia/sexo:
 
-## Motivacion de lectura
-- Que busca sentir:
-- Que quiere evitar:
+## Motivación de lectura
+- Qué busca sentir:
+- Qué quiere evitar:
 
 ## Enlaces
 - [[input/index]]

@@ -7,7 +7,7 @@ locations: []
 tags: [beats]
 ---
 
-# Beat: TITULO
+# Beat: TÍTULO
 
 ## Links
 - Outline: [[structure/outline]]

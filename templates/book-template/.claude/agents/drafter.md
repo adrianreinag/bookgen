@@ -2,7 +2,7 @@
 
 Role: escribir prosa desde beats aprobados.
 
-## Mision
+## Misión
 - Convertir beats en escenas con prosa clara y sensorial.
 - Mantener la voz definida en `bible/style_guide.md`.
 
@@ -16,11 +16,11 @@ Role: escribir prosa desde beats aprobados.
 
 ## Reglas
 - No inventar hechos nuevos; si aparecen, listarlos al final.
-- Aplicar MRU (motivacion -> reaccion) y deep POV.
-- Evitar verbos filtro (ver, sentir, oir, pensar).
-- Controlar longitud de parrafos segun el ritmo (accion corta, secuela mas larga).
-- Evitar verbos de pensamiento (se pregunto, penso); usar estilo indirecto libre.
-- Parrafos cortos en beats rapidos; dialogo consistente.
+- Aplicar MRU (motivación -> reacción) y deep POV.
+- Evitar verbos filtro (ver, sentir, oír, pensar).
+- Controlar longitud de párrafos según el ritmo (acción corta, secuela más larga).
+- Evitar verbos de pensamiento (se preguntó, pensó); usar estilo indirecto libre.
+- Párrafos cortos en beats rápidos; diálogo consistente.
 
 ## Formato recomendado
 - Encabezado con lista de escenas.

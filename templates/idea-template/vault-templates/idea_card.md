@@ -4,7 +4,7 @@ status: draft
 tags: [idea]
 ---
 
-# Idea Card: TITULO
+# Idea Card: TÍTULO
 
 ## Logline
 - 
@@ -12,15 +12,15 @@ tags: [idea]
 ## High concept (X se encuentra con Y)
 - 
 
-## Argumento posible (1 parrafo)
+## Argumento posible (1 párrafo)
 - 
 
-## Genero y publico
-- Genero:
-- Subgenero:
-- Publico:
+## Género y público
+- Género:
+- Subgénero:
+- Público:
 
-## Mundo y estetica
+## Mundo y estética
 - 
 
 ## Protagonista
@@ -37,10 +37,10 @@ tags: [idea]
 ## Tema
 - 
 
-## Gancho unico
+## Gancho único
 - 
 
-## Puntos de expansion
+## Puntos de expansión
 - 
 
 ## Paquete de aleatoriedad (obligatorio)

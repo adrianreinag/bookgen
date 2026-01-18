@@ -4,7 +4,7 @@ status: draft
 tags: [idea]
 ---
 
-# Idea Card: TITULO
+# Idea Card: TÍTULO
 
 ## Logline
 - 
@@ -12,19 +12,19 @@ tags: [idea]
 ## High concept (X se encuentra con Y)
 - 
 
-## Argumento posible (1 parrafo)
-- Debe incluir protagonista, objetivo, obstaculo y apuestas.
+## Argumento posible (1 párrafo)
+- Debe incluir protagonista, objetivo, obstáculo y apuestas.
 - 
 
-## Genero y publico
-- Genero / subgenero:
-- Publico objetivo:
+## Género y público
+- Género / subgénero:
+- Público objetivo:
 
-## Mundo y estetica
-- Ambientacion:
-- Epoca / periodo:
-- Estetica dominante:
-- Regla o restriccion clave:
+## Mundo y estética
+- Ambientación:
+- Época / período:
+- Estética dominante:
+- Regla o restricción clave:
 
 ## Protagonista
 - Rol:
@@ -34,7 +34,7 @@ tags: [idea]
 ## Antagonista o fuerza opuesta
 - Tipo:
 - Objetivo:
-- Relacion con protagonista:
+- Relación con protagonista:
 
 ## Conflicto y apuestas
 - Conflicto central:
@@ -44,20 +44,20 @@ tags: [idea]
 - Mentira:
 - Verdad:
 
-## Gancho unico
+## Gancho único
 - 
 
-## Puntos de expansion
+## Puntos de expansión
 - 
 
 ## Paquete de aleatoriedad (obligatorio)
 - Seed:
 - Listas usadas (orden):
 - Resultado:
-  - Picks tocados (segun randomizer):
+  - Picks tocados (según randomizer):
   - Picks usados (en la idea):
   - Picks descartados (y motivo):
-- Restriccion oblicua:
+- Restricción oblicua:
 
 ## Notas
 - 

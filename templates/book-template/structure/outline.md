@@ -4,13 +4,13 @@ status: draft
 tags: [structure, outline]
 ---
 
-<!-- AGENT: Reescribe este outline completo segun la seed. Elimina instrucciones y deja solo estructura final. -->
+<!-- AGENT: Reescribe este outline completo según la seed. Elimina instrucciones y deja solo estructura final. -->
 
 # Outline
 
 ## Metadatos Estructurales
 - Estructura elegida: (Ej: Three Act, Fichtean Curve, Save the Cat)
-- Estimacion de capitulos: (Target Word Count / promedio palabras por capitulo)
+- Estimación de capítulos: (Target Word Count / promedio palabras por capítulo)
 - Partes: (si aplica; Ej: Parte 1, Parte 2)
 
 ## Mapa de la Historia

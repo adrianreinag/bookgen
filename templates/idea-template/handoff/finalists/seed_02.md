@@ -18,31 +18,31 @@ copiarla a `handoff/seed.md`.
 ## Logline (1 sentence)
 - 
 
-## Premisa extendida (Snowflake 4 parrafos)
+## Premisa extendida (Snowflake 4 párrafos)
 1. Acto 1 / Setup:
-2. Acto 2A / Confrontacion:
+2. Acto 2A / Confrontación:
 3. Acto 2B / Crisis:
-4. Acto 3 / Resolucion:
+4. Acto 3 / Resolución:
 
 ## Tema central
 - Mentira (creencia falsa del protagonista):
-- Verdad (leccion que debe aprender):
+- Verdad (lección que debe aprender):
 - Pregunta moral:
 
 ## Protagonista (resumen)
 - Deseo externo (want):
 - Necesidad interna (need):
 - Herida o Fantasma:
-- Arco en 1 linea:
+- Arco en 1 línea:
 
 ## Antagonista o fuerza opuesta
 - Objetivo:
-- Metodo:
-- Relacion con el protagonista:
+- Método:
+- Relación con el protagonista:
 
-## Genero y promesa
-- Genero:
-- Subgenero:
+## Género y promesa
+- Género:
+- Subgénero:
 - Tropos obligatorios:
 - Tropos a evitar:
 
@@ -51,20 +51,20 @@ copiarla a `handoff/seed.md`.
 - Tiempo verbal:
 - Distancia narrativa (cercana / media / lejana):
 
-## Longitud y publico objetivo
+## Longitud y público objetivo
 - Target word count:
-- Publico:
+- Público:
 
 ## Estructura
 - Modelo: three act / save the cat / kisho ten ketsu
 - Beats clave: incidente incitador, midpoint, all is lost, final image
 
 ## Restricciones y no negociables
-- Limites de mundo:
-- Limites de tono:
+- Límites de mundo:
+- Límites de tono:
 
-## Necesidades de investigacion
-- Temas o areas a verificar:
+## Necesidades de investigación
+- Temas o áreas a verificar:
 
 ## Enlaces
 - [[handoff/index]]

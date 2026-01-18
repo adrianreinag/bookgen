@@ -4,14 +4,14 @@ status: draft
 tags: [input]
 ---
 
-# Brief de ideacion
+# Brief de ideación
 
 ## Objetivo
-- Numero de ideas:
-- Genero / subgenero:
-- Publico objetivo (edad, region):
+- Número de ideas:
+- Género / subgénero:
+- Público objetivo (edad, región):
 - Idioma:
-- Formato (novela, serie, coleccion):
+- Formato (novela, serie, colección):
 - Longitud objetivo (palabras):
 - Nivel de riesgo creativo (bajo/medio/alto):
 - Nivel de originalidad (seguro/medio/experimental):
@@ -22,18 +22,18 @@ tags: [input]
 - Elementos prohibidos:
 
 ## Referencias
-- Comparables (libros, peliculas, juegos):
-- Influencias esteticas:
+- Comparables (libros, películas, juegos):
+- Influencias estéticas:
 
-## Parametros narrativos
+## Parámetros narrativos
 - Tono:
 - POV:
 - Tiempo verbal:
-- Ambientacion temporal:
+- Ambientación temporal:
 - Ritmo:
 
 ## Entrega
-- Numero de ideas y formato esperado:
+- Número de ideas y formato esperado:
 
 ## Enlaces
 - [[input/index]]

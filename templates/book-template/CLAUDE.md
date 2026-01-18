@@ -1,11 +1,11 @@
 # Sistema de libros (Obsidian + Claude Code)
 
-## Proposito
-Este template crea un libro con una boveda Obsidian por proyecto. La fuente de la verdad
+## Propósito
+Este template crea un libro con una bóveda Obsidian por proyecto. La fuente de la verdad
 vive en archivos Markdown y el grafo de enlaces mantiene la coherencia. La IA opera sobre
 el sistema de archivos, no sobre una ventana de chat.
 
-## Mapa de la boveda
+## Mapa de la bóveda
 - `index.md`: home note y atajos.
 - `dashboard.md`: vistas operativas (Dataview opcional).
 - `bible/index.md`: hub de SOT (personajes, lugares, timeline, glosario).
@@ -13,22 +13,22 @@ el sistema de archivos, no sobre una ventana de chat.
 - `manuscript/index.md`: hub de manuscrito (drafts y final).
 
 ## Principios no negociables
-- `bible/` es la SOT. Ningun draft puede contradecirla.
+- `bible/` es la SOT. Ningún draft puede contradecirla.
 - Estructura antes que prosa: seed -> outline -> beats -> draft -> final.
 - Cada nota debe enlazar a sus fuentes y a sus dependencias.
 - Los cambios de hechos se registran en la biblia con su fuente.
 - Las secciones `## DRAFT` y `## NEW FACTS` son obligatorias en drafts.
 - Markdown y ASCII solamente.
 
-## Metodologia integrada
-1. Preparacion: abrir el vault y revisar `index.md`, `dashboard.md` y los hubs.
+## Metodología integrada
+1. Preparación: abrir el vault y revisar `index.md`, `dashboard.md` y los hubs.
 2. Seed + estilo: completar `bible/seed.md` y `bible/style_guide.md`.
 3. Biblia: crear personajes y lugares con plantillas; actualizar `bible/timeline.md` y `bible/glossary.md`.
-4. Outline: reescribir el template y definir capitulos reales en `structure/outline.md`.
-5. Critica y replanificacion global (iterativa) antes de beats.
-6. Beats: por capitulo en `structure/beats/`; enlazar personajes, lugares y draft.
-7. Draft: escribir en `manuscript/drafts/` usando beats y guia de estilo (v1).
-8. Critica global post-borradores (iterativa) y nuevas versiones (v2, v3...).
+4. Outline: reescribir el template y definir capítulos reales en `structure/outline.md`.
+5. Crítica y replanificación global (iterativa) antes de beats.
+6. Beats: por capítulo en `structure/beats/`; enlazar personajes, lugares y draft.
+7. Draft: escribir en `manuscript/drafts/` usando beats y guía de estilo (v1).
+8. Crítica global post-borradores (iterativa) y nuevas versiones (v2, v3...).
 9. Consistencia: mover hechos nuevos a la biblia, timeline y glosario.
 10. Final: editar en `manuscript/final/` y compilar `full_manuscript.md`.
 
@@ -37,13 +37,13 @@ el sistema de archivos, no sobre una ventana de chat.
 - No pasar de punto hasta completar al 100% el punto actual.
 - Marcar cada tarea al completarla. Si no se sigue el plan, el resultado es incorrecto.
 - Los puntos iterativos se repiten hasta aprobarse y se registran en `manuscript/feedback/critique_log.md`.
-- Toda revision crea una nueva version (v2, v3, v4...) y nunca sobrescribe.
+- Toda revisión crea una nueva versión (v2, v3, v4...) y nunca sobrescribe.
 
-## Enlaces minimos por nota
+## Enlaces mínimos por nota
 - Personajes: link a beats, drafts y lugares relevantes.
 - Lugares: link a beats, drafts y personajes.
 - Beats: link a outline, draft y biblia.
-- Drafts: link a beats, outline, personajes, lugares y guia de estilo.
+- Drafts: link a beats, outline, personajes, lugares y guía de estilo.
 - Final: link al draft y beats de origen.
 
 ## Roles y responsabilidades
@@ -51,26 +51,26 @@ el sistema de archivos, no sobre una ventana de chat.
 - Architect: estructura (outline y beats), ritmo y causalidad.
 - Archivist: continuidad, glosario, timeline, SOT.
 - Drafter: prosa desde beats, voz y sensorialidad.
-- Critic: critica estructurada con severidad (obligatorio/recomendado/opcional) y veredicto, sin cambiar hechos.
+- Critic: crítica estructurada con severidad (obligatorio/recomendado/opcional) y veredicto, sin cambiar hechos.
 
-## Politica de SOT y actualizaciones
+## Política de SOT y actualizaciones
 - Si aparece un hecho nuevo, registrarlo en `bible/` con fuente.
 - Personajes: `bible/characters/`.
 - Lugares: `bible/locations/`.
-- Terminos: `bible/glossary.md`.
+- Términos: `bible/glossary.md`.
 - Eventos: `bible/timeline.md`.
-- Investigacion: `bible/research.md`.
+- Investigación: `bible/research.md`.
 - Si el libro viene de una idea, registrar el origen en `bible/seed.md`.
 
 ## Contexto JIT (just in time)
-- Cargar solo lo necesario: capitulo actual, personajes, lugares, guia de estilo.
+- Cargar solo lo necesario: capítulo actual, personajes, lugares, guía de estilo.
 - Evitar cargar el manuscrito completo.
 - Resumir y guardar en la biblia si hace falta.
 
-## Calidad y revision
-- MRU: motivacion externa -> reaccion interna -> accion -> dialogo.
-- Deep POV: evitar verbos filtro (ver, sentir, oir, pensar).
-- Ritmo: alternar escena y secuela; parrafos cortos.
+## Calidad y revisión
+- MRU: motivación externa -> reacción interna -> acción -> diálogo.
+- Deep POV: evitar verbos filtro (ver, sentir, oír, pensar).
+- Ritmo: alternar escena y secuela; párrafos cortos.
 - Macro antes que micro: trama, ritmo, arcos, luego estilo.
 
 ## Convenciones de archivos
@@ -81,14 +81,14 @@ el sistema de archivos, no sobre una ventana de chat.
 - Full: `manuscript/final/full_manuscript.md`.
 
 ## Comandos del proyecto (conceptuales)
-- `develop-beats [n]`: generar beats del capitulo n.
+- `develop-beats [n]`: generar beats del capítulo n.
 - `draft-chapter [n]`: generar borrador desde beats.
 - `scan-consistency [n]`: verificar borrador contra la biblia.
 - `update-bible`: registrar hechos nuevos en SOT.
 - `build-chapter [n]`: pipeline completo (beats -> draft -> scan -> update).
 
-## Inicio rapido
+## Inicio rápido
 - Abrir `index.md`.
 - Completar `bible/seed.md` y `bible/style_guide.md`.
 - Crear outline en `structure/outline.md`.
-- Generar beats del capitulo 01 y pasar a draft.
+- Generar beats del capítulo 01 y pasar a draft.

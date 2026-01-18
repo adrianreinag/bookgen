@@ -6,17 +6,17 @@ tags: [bible, glossary]
 
 # Glosario
 
-## Terminos del mundo
-- Termino: definicion. Capitalizacion. Primera aparicion. Notas.
+## Términos del mundo
+- Término: definición. Capitalización. Primera aparición. Notas.
 
-## Tecnologia / Magia
-- Termino: definicion. Limites. Costo.
+## Tecnología / Magia
+- Término: definición. Límites. Costo.
 
 ## Instituciones y grupos
-- Nombre: rol. Jerarquia. Notas.
+- Nombre: rol. Jerarquía. Notas.
 
 ## Objetos clave
-- Objeto: descripcion. Uso. Dueno.
+- Objeto: descripción. Uso. Dueño.
 
 ## Nombres propios y alias
 - Nombre: variantes permitidas.

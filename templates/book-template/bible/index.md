@@ -6,7 +6,7 @@ tags: [bible, hub]
 
 # Biblia
 
-## Nucleo
+## Núcleo
 - [[bible/seed]]
 - [[bible/style_guide]]
 - [[bible/timeline]]
@@ -20,7 +20,7 @@ tags: [bible, hub]
 ## Lugares
 - [[bible/locations/escenario_principal]]
 
-## Atajos de creacion
+## Atajos de creación
 - [[vault-templates/character]]
 - [[vault-templates/location]]
 - [[vault-templates/research]]

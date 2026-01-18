@@ -10,14 +10,14 @@ beats: []
 tags: [scene]
 ---
 
-# Escena: TITULO
+# Escena: TÍTULO
 
 ## Links
 - Beats: [[structure/beats/chapter_XX_beats]]
 - Personajes: [[bible/characters/protagonista]]
 - Lugares: [[bible/locations/escenario_principal]]
 
-## Proposito
+## Propósito
 - 
 
 ## Conflicto

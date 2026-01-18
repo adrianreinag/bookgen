@@ -18,7 +18,7 @@ tags: [handoff, style]
 
 ## Ritmo
 - Longitud de frases:
-- Longitud de parrafos:
+- Longitud de párrafos:
 - Alternar escena y secuela:
 
 ## Lenguaje
@@ -26,15 +26,15 @@ tags: [handoff, style]
 - Palabras prohibidas:
 - Muletillas a evitar:
 
-## Dialogo
-- Sistema de dialogo:
+## Diálogo
+- Sistema de diálogo:
 - Notas de subtexto:
 
-## Descripcion sensorial
+## Descripción sensorial
 - Prioridad de sentidos:
 - Nivel de detalle:
 
-## Cliches a evitar
+## Clichés a evitar
 - 
 
 ## Enlaces

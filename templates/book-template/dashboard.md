@@ -6,7 +6,7 @@ tags: [dashboard]
 
 # Dashboard
 
-## Areas
+## Áreas
 - [[bible/index]]
 - [[structure/index]]
 - [[manuscript/index]]
@@ -27,7 +27,7 @@ WHERE type = "location" AND file.name != "_template"
 SORT file.name
 ```
 
-## Investigacion
+## Investigación
 ```dataview
 LIST FROM "bible"
 WHERE type = "research"
@@ -48,7 +48,7 @@ WHERE type = "draft"
 SORT file.name
 ```
 
-## Ultimos cambios
+## Últimos cambios
 ```dataview
 LIST FROM ""
 SORT file.mtime DESC

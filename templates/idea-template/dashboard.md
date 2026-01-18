@@ -6,7 +6,7 @@ tags: [dashboard]
 
 # Dashboard
 
-## Areas
+## Áreas
 - [[input/index]]
 - [[pool/index]]
 - [[process/index]]

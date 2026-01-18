@@ -5,12 +5,12 @@ status: final
 tags: [final]
 ---
 
-# Capitulo 01 Final
+# Capítulo 01 Final
 
 ## Links
 - Draft: [[manuscript/drafts/chapter_01_v1]]
 - Beats: [[structure/beats/chapter_01_beats]]
-- Guia de estilo: [[bible/style_guide]]
+- Guía de estilo: [[bible/style_guide]]
 
 ## Edit notes
 - Macro:
@@ -20,4 +20,4 @@ tags: [final]
 - 
 
 ## Final text
-[Texto final del capitulo.]
+[Texto final del capítulo.]

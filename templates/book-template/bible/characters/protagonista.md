@@ -11,13 +11,13 @@ tags: [character]
 ## Rol
 - Protagonista
 
-## Datos basicos
+## Datos básicos
 - Edad:
-- Ocupacion:
+- Ocupación:
 - Lugar de origen:
 - Estado actual:
 
-## Psicologia
+## Psicología
 - Eneagrama:
 - Herida o Fantasma:
 - Mentira (creencia falsa):
@@ -34,13 +34,13 @@ tags: [character]
 - Rasgos:
 - Virtudes:
 - Defectos:
-- Lexico:
+- Léxico:
 - Sintaxis:
 - Muletillas:
 - Ritmo del habla:
 
 ## Apariencia
-- Rasgos fisicos clave:
+- Rasgos físicos clave:
 - Vestimenta:
 
 ## Habilidades y recursos
@@ -51,7 +51,7 @@ tags: [character]
 ## Relaciones
 - Aliados:
 - Antagonistas:
-- Vinculos familiares:
+- Vínculos familiares:
 
 ## Notas de continuidad
 - Detalles inmutables:

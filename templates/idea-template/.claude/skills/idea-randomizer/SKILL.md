@@ -8,17 +8,17 @@ description: Generate randomized ideation picks from per-list JSON files using t
 1. Identificar listas en `data/` (una lista por archivo JSON).
 2. Ejecutar `toolkit/scripts/idea_randomizer.py` **una vez por idea** con listas variadas.
 3. Guardar el resultado (listas + picks + seed) en `process/exploration_log.md` y en `Paquete de aleatoriedad` de la idea.
-4. Intentar integrar la mayoria de los picks en logline, mundo y argumento (no decorativo).
-5. Si algun pick no encaja con el resto, puedes descartarlo, pero registra cual y el motivo.
-6. Si un paquete de ruido se repite, volver a correr hasta que sea unico.
-7. Si descartas demasiados picks (p.ej. 3+), conviene volver a correr el randomizer para obtener un paquete mas coherente.
+4. Intentar integrar la mayoría de los picks en logline, mundo y argumento (no decorativo).
+5. Si algún pick no encaja con el resto, puedes descartarlo, pero registra cuál y el motivo.
+6. Si un paquete de ruido se repite, volver a correr hasta que sea único.
+7. Si descartas demasiados picks (p.ej. 3+), conviene volver a correr el randomizer para obtener un paquete más coherente.
 
-## Comandos utiles
+## Comandos útiles
 ```bash
-# Paquete base con trazabilidad (una ejecucion por idea)
+# Paquete base con trazabilidad (una ejecución por idea)
 python3 toolkit/scripts/idea_randomizer.py "conflicts, settings, themes, tones, inciting_incidents, antagonist_forces, stakes, oblique_strategies" --emit-meta
 
-# Mas libertad: 3 candidatos por lista (igual se ejecuta una sola vez por idea)
+# Más libertad: 3 candidatos por lista (igual se ejecuta una sola vez por idea)
 python3 toolkit/scripts/idea_randomizer.py "conflicts, settings, themes" --emit-meta --candidates 3
 
 # Reproducible si necesitas revisar una idea puntual

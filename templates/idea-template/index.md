@@ -8,7 +8,7 @@ tags: [hub]
 
 # {{IDEA_TITLE}}
 
-## Inicio rapido
+## Inicio rápido
 - [[dashboard]]
 - [[input/index]]
 - [[pool/index]]

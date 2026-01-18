@@ -9,7 +9,7 @@ tags: [location]
 ## Tipo
 - 
 
-## Descripcion breve
+## Descripción breve
 - 
 
 ## Detalle sensorial
@@ -27,10 +27,10 @@ tags: [location]
 ## Cultura profunda (invisible)
 - Valores:
 - Normas sociales:
-- Relacion con autoridad, tiempo y tecnologia:
+- Relación con autoridad, tiempo y tecnología:
 
-## Reglas y limites
-- Leyes fisicas o magicas:
+## Reglas y límites
+- Leyes físicas o mágicas:
 - Restricciones de acceso:
 
 ## Historia y contexto

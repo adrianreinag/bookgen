@@ -4,12 +4,12 @@ status: active
 tags: [process]
 ---
 
-# Decision log
+# Decisión log
 
-## Decision 01: Top 5 ganadoras
+## Decisión 01: Top 5 ganadoras
 - Fecha:
 - Aprobadas evaluadas (20):
-- Metodo de puntuacion:
+- Método de puntuación:
 - Criterio de desempate:
 - Top 5 (ordenadas):
 1) 

@@ -5,7 +5,7 @@ source: ""
 tags: [research]
 ---
 
-# Investigacion: TEMA
+# Investigación: TEMA
 
 ## Links
 - [[bible/research]]
