@@ -48,5 +48,6 @@ tags: [bible, style]
 
 ## Enlaces
 - [[bible/seed]]
+- [[bible/entities]]
 - [[structure/outline]]
 - [[manuscript/index]]

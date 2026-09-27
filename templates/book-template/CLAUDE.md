@@ -9,14 +9,16 @@ el sistema de archivos, no sobre una ventana de chat.
 - `index.md`: home note y atajos.
 - `dashboard.md`: vistas operativas (Dataview opcional).
 - `bible/index.md`: hub de SOT (personajes, lugares, timeline, glosario).
-- `structure/index.md`: hub de estructura (outline y beats).
-- `manuscript/index.md`: hub de manuscrito (drafts y final).
+- `structure/index.md`: hub de estructura (outline).
+- `chapters/index.md`: hub de capítulos (unidad de edición por capítulo).
+- `manuscript/index.md`: hub de manuscrito (contexto + compilación).
 
 ## Principios no negociables
 - `bible/` es la SOT. Ningún draft puede contradecirla.
 - Estructura antes que prosa: seed -> outline -> beats -> draft -> final.
 - Cada nota debe enlazar a sus fuentes y a sus dependencias.
 - Los cambios de hechos se registran en la biblia con su fuente.
+- Regla de entidades: si algo tiene nombre propio y puede reaparecer, se crea/usa entidad en `bible/` y el manuscrito solo la referencia por enlace.
 - Las secciones `## DRAFT` y `## NEW FACTS` son obligatorias en drafts.
 - Markdown y ASCII solamente.
 
@@ -26,25 +28,26 @@ el sistema de archivos, no sobre una ventana de chat.
 3. Biblia: crear personajes y lugares con plantillas; actualizar `bible/timeline.md` y `bible/glossary.md`.
 4. Outline: reescribir el template y definir capítulos reales en `structure/outline.md`.
 5. Crítica y replanificación global (iterativa) antes de beats.
-6. Beats: por capítulo en `structure/beats/`; enlazar personajes, lugares y draft.
-7. Draft: escribir en `manuscript/drafts/` usando beats y guía de estilo (v1).
+6. Beats: por capítulo en `chapters/chapter_##/beats.md`; enlazar personajes, lugares y draft.
+7. Draft: escribir en `chapters/chapter_##/drafts/draft_vN.md` usando beats y guía de estilo (v1).
 8. Crítica global post-borradores (iterativa) y nuevas versiones (v2, v3...).
 9. Consistencia: mover hechos nuevos a la biblia, timeline y glosario.
-10. Final: editar en `manuscript/final/` y compilar `full_manuscript.md`.
+10. Final: editar en `chapters/chapter_##/final.md` y compilar `manuscript/final/full_manuscript.md`.
 
-## PLAN.md (plan maestro)
-- Seguir `PLAN.md` de principio a fin, en orden estricto y sin adelantar tareas.
+## PLAN (plan maestro)
+- Plan detallado (Obsidian): `plan/index.md`.
+- `PLAN.md` funciona como entrada rápida; la lista viva está en `plan/index.md`.
+- Seguir el plan de principio a fin, en orden estricto y sin adelantar tareas.
 - No pasar de punto hasta completar al 100% el punto actual.
 - Marcar cada tarea al completarla. Si no se sigue el plan, el resultado es incorrecto.
 - Los puntos iterativos se repiten hasta aprobarse y se registran en `manuscript/feedback/critique_log.md`.
 - Toda revisión crea una nueva versión (v2, v3, v4...) y nunca sobrescribe.
 
 ## Enlaces mínimos por nota
-- Personajes: link a beats, drafts y lugares relevantes.
-- Lugares: link a beats, drafts y personajes.
-- Beats: link a outline, draft y biblia.
-- Drafts: link a beats, outline, personajes, lugares y guía de estilo.
-- Final: link al draft y beats de origen.
+- Entidades (CHAR/LOC/ORG/EVT/OBJ/CON/TERM): link a capítulos donde aparecen (via backlinks) y a entidades relacionadas.
+- Beats: link a outline, capítulo y biblia.
+- Drafts: link a beats, capítulo, outline, personajes, lugares y guía de estilo.
+- Final: link al capítulo, draft y beats de origen.
 
 ## Roles y responsabilidades
 - Orchestrator: coordina el plan, valida formatos, no escribe prosa.
@@ -57,10 +60,16 @@ el sistema de archivos, no sobre una ventana de chat.
 - Si aparece un hecho nuevo, registrarlo en `bible/` con fuente.
 - Personajes: `bible/characters/`.
 - Lugares: `bible/locations/`.
-- Términos: `bible/glossary.md`.
-- Eventos: `bible/timeline.md`.
+- Organizaciones: `bible/organizations/`.
+- Eventos (entidades): `bible/events/` (y enlazarlos desde `bible/timeline.md`).
+- Objetos: `bible/objects/`.
+- Conceptos/reglas: `bible/concepts/`.
+- Términos (entidades): `bible/terms/` (el índice es `bible/glossary.md`).
 - Investigación: `bible/research.md`.
 - Si el libro viene de una idea, registrar el origen en `bible/seed.md`.
+
+## Referencia: entidades
+- Guía de uso y convención: `bible/entities.md`.
 
 ## Contexto JIT (just in time)
 - Cargar solo lo necesario: capítulo actual, personajes, lugares, guía de estilo.
@@ -74,10 +83,11 @@ el sistema de archivos, no sobre una ventana de chat.
 - Macro antes que micro: trama, ritmo, arcos, luego estilo.
 
 ## Convenciones de archivos
-- Hubs: `bible/index.md`, `structure/index.md`, `manuscript/index.md`.
-- Beats: `structure/beats/chapter_##_beats.md`.
-- Drafts: `manuscript/drafts/chapter_##_vN.md` (v1, v2, v3...).
-- Final: `manuscript/final/chapter_##_final.md`.
+- Hubs: `bible/index.md`, `structure/index.md`, `chapters/index.md`, `manuscript/index.md`.
+- Capítulo: `chapters/chapter_##/index.md`.
+- Beats: `chapters/chapter_##/beats.md`.
+- Drafts: `chapters/chapter_##/drafts/draft_vN.md` (v1, v2, v3...).
+- Final: `chapters/chapter_##/final.md`.
 - Full: `manuscript/final/full_manuscript.md`.
 
 ## Comandos del proyecto (conceptuales)

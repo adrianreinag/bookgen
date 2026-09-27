@@ -6,14 +6,19 @@ tags: [manuscript, hub]
 
 # Manuscrito
 
-## Drafts
-- [[manuscript/drafts/chapter_01_v1]]
+## Contexto y feedback
+- [[manuscript/context/story_so_far]]
+- [[manuscript/feedback/critique_log]]
+
+## Capítulos (unidad de edición)
+- [[chapters/index]]
+- [[chapters/chapter_01/index]]
 
 ## Final
-- [[manuscript/final/chapter_01_final]]
 - [[manuscript/final/full_manuscript]]
 
 ## Enlaces
 - [[structure/outline]]
 - [[bible/style_guide]]
+- [[bible/entities]]
 - [[bible/index]]

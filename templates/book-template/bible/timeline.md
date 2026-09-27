@@ -9,32 +9,34 @@ tags: [bible, timeline]
 ## Convenciones
 - Usa fechas absolutas o marcas relativas (Día 0, Semana 1).
 - Cada evento incluye fuente (capítulo o beat).
+- Si el evento es relevante, crear entidad en `bible/events/` y enlazarla desde la tabla.
 
 ## Prehistoria
-| Tiempo | Evento | Impacto | Fuente |
+| Tiempo | Evento (entidad) | Impacto | Fuente |
 | --- | --- | --- | --- |
-| TBD | | | |
+| TBD | [[bible/events/EVT_evento_clave|Evento Clave]] | | |
 
 ## Acto 1
-| Tiempo | Evento | Impacto | Fuente |
+| Tiempo | Evento (entidad) | Impacto | Fuente |
 | --- | --- | --- | --- |
 | TBD | | | |
 
 ## Acto 2A
-| Tiempo | Evento | Impacto | Fuente |
+| Tiempo | Evento (entidad) | Impacto | Fuente |
 | --- | --- | --- | --- |
 | TBD | | | |
 
 ## Acto 2B
-| Tiempo | Evento | Impacto | Fuente |
+| Tiempo | Evento (entidad) | Impacto | Fuente |
 | --- | --- | --- | --- |
 | TBD | | | |
 
 ## Acto 3
-| Tiempo | Evento | Impacto | Fuente |
+| Tiempo | Evento (entidad) | Impacto | Fuente |
 | --- | --- | --- | --- |
 | TBD | | | |
 
 ## Enlaces
+- [[bible/entities]]
 - [[structure/outline]]
 - [[manuscript/index]]

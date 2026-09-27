@@ -1,9 +1,12 @@
 ---
+id: CHAR_0000
 type: character
 role: ""
-status: active
+name: ""
 aliases: []
-tags: [character]
+status: stub
+first_seen: CH_01
+tags: [bible, entity, character]
 ---
 
 # Personaje: NOMBRE
@@ -57,6 +60,7 @@ tags: [character]
 - Detalles inmutables:
 
 ## Enlaces
-- Beats: [[structure/beats/chapter_XX_beats]]
-- Drafts: [[manuscript/drafts/chapter_XX_v1]]
-- Lugares: [[bible/locations/escenario_principal]]
+- Capítulo: [[chapters/chapter_XX/index]]
+- Beats: [[chapters/chapter_XX/beats]]
+- Drafts: [[chapters/chapter_XX/drafts/draft_v1]]
+- Lugares: [[bible/locations/LOC_escenario_principal]]

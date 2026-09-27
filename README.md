@@ -7,7 +7,7 @@ Sistema local para crear, organizar y exportar libros a EPUB y PDF. Incluye plan
 - `books/`: libros en curso (cada libro vive en su propia carpeta por ID).
 - `ideas/`: ideas en exploracion (cada idea es una carpeta por ID).
 - `templates/`: plantillas base.
-  - `templates/book-template/`: base de libro (bible, estructura, manuscrito).
+  - `templates/book-template/`: base de libro (bible, estructura, chapters, manuscrito).
   - `templates/idea-template/`: base de idea (input, proceso, ideas, handoff, toolkit).
 - `scripts/`: utilidades para crear ideas/libros y exportar.
   - `scripts/assets/epub.css`: estilo por defecto para EPUB.
@@ -16,7 +16,7 @@ Sistema local para crear, organizar y exportar libros a EPUB y PDF. Incluye plan
 
 1. (Opcional) Crear una idea nueva desde plantilla.
 2. Crear un libro nuevo desde plantilla.
-3. Trabajar bible, estructura y manuscrito.
+3. Trabajar bible (entidades/SOT), estructura (outline) y chapters (por capítulo).
 4. Consolidar el manuscrito final en `manuscript/final/full_manuscript.md`.
 5. Exportar a EPUB y PDF.
 6. (Opcional) Abrir cada libro o idea como vault independiente en Obsidian.
@@ -80,10 +80,14 @@ Libro creado en: /ruta/al/proyecto/books/<id>
 Dentro de `books/<id>/`:
 
 - `bible/`: personajes, locations, timeline y guias.
-- `structure/`: outline y beats por capitulo.
+- Entidades recomendadas (SOT): `bible/characters/`, `bible/locations/`, `bible/organizations/`, `bible/events/`, `bible/objects/`, `bible/concepts/`, `bible/terms/`.
+- `structure/`: outline (estructura global).
+- `chapters/`: una carpeta por capítulo (unidad de edición).
+  - `chapters/chapter_##/beats.md`: beats del capítulo.
+  - `chapters/chapter_##/drafts/draft_vN.md`: drafts versionados (v1, v2...).
+  - `chapters/chapter_##/final.md`: capítulo final.
 - `manuscript/`:
-  - `drafts/`: borradores.
-  - `final/`: version final por capitulo y `full_manuscript.md`.
+  - `final/`: `full_manuscript.md` (manuscrito compilado).
 - `assets/`: recursos del libro (por ejemplo `portada.png`).
 - `output/`: salidas generadas (EPUB/PDF).
 

@@ -4,13 +4,18 @@ chapter: ""
 status: planned
 characters: []
 locations: []
+entities: []
 tags: [beats]
 ---
 
-# Beat: TÍTULO
+# Beats - Capítulo XX
 
 ## Links
-- Outline: [[structure/outline]]
+- Capítulo: [[chapters/chapter_XX/index]]
+- Outline: [[structure/outline#Capítulo XX - [título]]]
+- Personajes:
+- Lugares:
+- Otras entidades (ORG/EVT/OBJ/CON/TERM):
 
 ## Objetivo
 - 
@@ -22,4 +27,5 @@ tags: [beats]
 - 
 
 ## Notas
+- Regla: si aparece un nombre propio nuevo, crear entidad en `bible/` y enlazarla aquí.
 - 

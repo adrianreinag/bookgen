@@ -64,5 +64,6 @@ tags: [bible, seed]
 
 ## Enlaces clave
 - [[bible/style_guide]]
+- [[bible/entities]]
 - [[bible/timeline]]
 - [[structure/outline]]

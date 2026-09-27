@@ -4,23 +4,29 @@ status: active
 tags: [bible, glossary]
 ---
 
-# Glosario
+# Glosario (index)
 
-## Términos del mundo
-- Término: definición. Capitalización. Primera aparición. Notas.
+Este archivo es un **índice**. Los términos canónicos viven como **entidades** en `bible/terms/`.
 
-## Tecnología / Magia
-- Término: definición. Límites. Costo.
+Regla: si un término tiene significado especial o reaparece, crea una entidad:
+- Ejemplo: [[bible/terms/TERM_termino_clave]]
 
-## Instituciones y grupos
-- Nombre: rol. Jerarquía. Notas.
+## Términos (entidades)
+```dataview
+TABLE id, name, status, first_seen
+FROM "bible/terms"
+WHERE type = "term"
+SORT id ASC
+```
 
-## Objetos clave
-- Objeto: descripción. Uso. Dueño.
+## Convención
+- Archivo: `bible/terms/TERM_<slug>.md`
+- En texto: `[[TERM_<slug>|Forma narrativamente adecuada]]`
 
-## Nombres propios y alias
-- Nombre: variantes permitidas.
+## Notas rápidas (opcionales)
+- Si necesitas apuntar algo sin crear entidad todavía, déjalo aquí como TODO y conviértelo en entidad en la fase de mantenimiento.
 
 ## Enlaces
+- [[bible/entities]]
 - [[bible/seed]]
 - [[bible/timeline]]

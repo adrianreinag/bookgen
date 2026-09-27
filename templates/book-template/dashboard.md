@@ -7,24 +7,74 @@ tags: [dashboard]
 # Dashboard
 
 ## Áreas
+- [[plan/index]]
 - [[bible/index]]
 - [[structure/index]]
+- [[chapters/index]]
 - [[manuscript/index]]
 
 ## Personajes
 ```dataview
-TABLE file.link AS Personaje
+TABLE id AS ID, name AS Nombre, status AS Estado, file.link AS Nota
 FROM "bible/characters"
-WHERE type = "character" AND file.name != "_template"
-SORT file.name
+WHERE type = "character"
+SORT id ASC
 ```
 
 ## Lugares
 ```dataview
-TABLE file.link AS Lugar
+TABLE id AS ID, name AS Nombre, status AS Estado, file.link AS Nota
 FROM "bible/locations"
-WHERE type = "location" AND file.name != "_template"
-SORT file.name
+WHERE type = "location"
+SORT id ASC
+```
+
+## Organizaciones
+```dataview
+TABLE id AS ID, name AS Nombre, status AS Estado, file.link AS Nota
+FROM "bible/organizations"
+WHERE type = "organization"
+SORT id ASC
+```
+
+## Eventos
+```dataview
+TABLE id AS ID, name AS Nombre, status AS Estado, file.link AS Nota
+FROM "bible/events"
+WHERE type = "event"
+SORT id ASC
+```
+
+## Objetos
+```dataview
+TABLE id AS ID, name AS Nombre, status AS Estado, file.link AS Nota
+FROM "bible/objects"
+WHERE type = "object"
+SORT id ASC
+```
+
+## Conceptos
+```dataview
+TABLE id AS ID, name AS Nombre, status AS Estado, file.link AS Nota
+FROM "bible/concepts"
+WHERE type = "concept"
+SORT id ASC
+```
+
+## Términos
+```dataview
+TABLE id AS ID, name AS Nombre, status AS Estado, file.link AS Nota
+FROM "bible/terms"
+WHERE type = "term"
+SORT id ASC
+```
+
+## Culturas
+```dataview
+TABLE id AS ID, name AS Nombre, status AS Estado, file.link AS Nota
+FROM "bible/cultures"
+WHERE type = "culture"
+SORT id ASC
 ```
 
 ## Investigación
@@ -36,15 +86,22 @@ SORT file.name
 
 ## Beats
 ```dataview
-LIST FROM "structure/beats"
+LIST FROM "chapters"
 WHERE type = "beats"
 SORT file.name
 ```
 
 ## Drafts
 ```dataview
-LIST FROM "manuscript/drafts"
+LIST FROM "chapters"
 WHERE type = "draft"
+SORT file.name
+```
+
+## Final
+```dataview
+LIST FROM "chapters"
+WHERE type = "final"
 SORT file.name
 ```
 

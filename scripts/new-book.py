@@ -151,7 +151,8 @@ def init_git_repo(root: Path) -> None:
 
 
 def ensure_structure_dirs(root: Path) -> None:
-    (root / "structure" / "beats").mkdir(parents=True, exist_ok=True)
+    # Chapters are the unit of editing: beats + drafts + final live together.
+    (root / "chapters" / "chapter_01" / "drafts").mkdir(parents=True, exist_ok=True)
 
 
 def main() -> int:

@@ -1,0 +1,221 @@
+{
+  "main": {
+    "id": "132c5920b6865b20",
+    "type": "split",
+    "children": [
+      {
+        "id": "633c54f119de9bcf",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ef0544176cf41ff0",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.11.5"
+              },
+              "icon": "lucide-book-up",
+              "title": "Registro de cambios 1.11.5"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a508a129da36790",
+    "type": "split",
+    "children": [
+      {
+        "id": "cb9ac0b24cd11f71",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "68e5c0823284806a",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical",
+                "autoReveal": false
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Explorador de archivos"
+            }
+          },
+          {
+            "id": "214b46f2fc055791",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Buscar"
+            }
+          },
+          {
+            "id": "daf0eb216f3ca713",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Marcadores"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 354.5
+  },
+  "right": {
+    "id": "ddf9fd4a23faae3e",
+    "type": "split",
+    "children": [
+      {
+        "id": "8601e998068d7272",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "93aed87f661d2c95",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Enlaces entrantes"
+            }
+          },
+          {
+            "id": "55df495ed34afed8",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Enlaces salientes"
+            }
+          },
+          {
+            "id": "4bb0f46a9f0be920",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-tags",
+              "title": "Etiquetas"
+            }
+          },
+          {
+            "id": "fe652c5fbfdcb217",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "Todas las propiedades"
+            }
+          },
+          {
+            "id": "ae05df5a8fbc1d22",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-list",
+              "title": "Esquema"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Abrir selector rápido": false,
+      "graph:Abrir vista gráfica": false,
+      "canvas:Crear nuevo lienzo": false,
+      "daily-notes:Abrir la nota de hoy": false,
+      "templates:Insertar plantilla": false,
+      "command-palette:Abrir paleta de comandos": false,
+      "bases:Crear nueva base": false,
+      "templater-obsidian:Templater": false
+    }
+  },
+  "active": "ef0544176cf41ff0",
+  "lastOpenFiles": [
+    "00_Utiles/Scripts/__pycache__/generar_capitulos.cpython-312.pyc",
+    "00_Utiles/Scripts/__pycache__/generar_personajes.cpython-312.pyc",
+    "00_Utiles/Scripts/__pycache__",
+    "00_Utiles/Vault Templates/TERM_Template.md",
+    "00_Utiles/Vault Templates/CON_Template.md",
+    "00_Utiles/Vault Templates/OBJ_Template.md",
+    "00_Utiles/Vault Templates/EVT_Template.md",
+    "00_Utiles/Vault Templates/ORG_Template.md",
+    "00_Utiles/Vault Templates/LOC_Template.md",
+    "00_Utiles/Vault Templates/CHAR_Template.md",
+    "02_Biblia/Entidades/Terminos",
+    "02_Biblia/Entidades/Personajes",
+    "02_Biblia/Entidades/Organizaciones",
+    "02_Biblia/Entidades/Objetos",
+    "02_Biblia/Entidades/Lugares",
+    "02_Biblia/Entidades/Eventos",
+    "02_Biblia/Entidades/Culturas",
+    "02_Biblia/Entidades/Conceptos",
+    "02_Biblia/Cronologia.md",
+    "01_Gestion/Plan/06_Produccion/02_Drafts/TXX_Draft_Capitulo_X.md",
+    "01_Gestion/Plan/06_Produccion/01_Beats/TXX_Beats_Capitulo_X.md",
+    "01_Gestion/Plan/07_Final/T04_Exportacion.md",
+    "01_Gestion/Plan/07_Final/T03_Pase_Estilo_Editorial.md",
+    "01_Gestion/Plan/07_Final/T02_Auditoria_Consistencia_SOT.md",
+    "01_Gestion/Plan/07_Final/T01_Compilacion_Manuscrito.md",
+    "01_Gestion/Plan/05_Estructura_Global/T03_Escaleta_Maestra.md",
+    "01_Gestion/Plan/05_Estructura_Global/T02_Topologia_y_Partes.md",
+    "01_Gestion/Plan/05_Estructura_Global/T01_Eleccion_Modelo.md",
+    "01_Gestion/Plan/04_Personajes/TXX_Personaje_X.md",
+    "01_Gestion/Plan/04_Personajes/T01_Definicion_Personajes.md",
+    "01_Gestion/Plan/03_Worldbuilding/T04_Culturas_y_Organizaciones.md",
+    "01_Gestion/Plan/03_Worldbuilding/T03_Geografia_Lugares_Core.md",
+    "01_Gestion/Plan/03_Worldbuilding/T02_Reglas_del_Mundo.md",
+    "01_Gestion/Plan/03_Worldbuilding/T01_Glosario_Core.md",
+    "01_Gestion/Plan/02_Estilo/T05_Sistema_de_Dialogo.md",
+    "01_Gestion/Plan/02_Estilo/T04_Protocolo_Deep_POV.md"
+  ]
+}

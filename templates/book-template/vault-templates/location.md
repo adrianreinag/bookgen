@@ -1,7 +1,11 @@
 ---
+id: LOC_0000
 type: location
-status: active
-tags: [location]
+name: ""
+aliases: []
+status: stub
+first_seen: CH_01
+tags: [bible, entity, location]
 ---
 
 # Lugar: NOMBRE
@@ -45,6 +49,7 @@ tags: [location]
 - 
 
 ## Enlaces
-- Beats: [[structure/beats/chapter_XX_beats]]
-- Drafts: [[manuscript/drafts/chapter_XX_v1]]
-- Personajes: [[bible/characters/protagonista]]
+- Capítulo: [[chapters/chapter_XX/index]]
+- Beats: [[chapters/chapter_XX/beats]]
+- Drafts: [[chapters/chapter_XX/drafts/draft_v1]]
+- Personajes: [[bible/characters/CHAR_protagonista]]

@@ -13,9 +13,11 @@ tags: [scene]
 # Escena: TÍTULO
 
 ## Links
-- Beats: [[structure/beats/chapter_XX_beats]]
-- Personajes: [[bible/characters/protagonista]]
-- Lugares: [[bible/locations/escenario_principal]]
+- Capítulo: [[chapters/chapter_XX/index]]
+- Beats: [[chapters/chapter_XX/beats]]
+- Personajes: [[bible/characters/CHAR_protagonista]]
+- Lugares: [[bible/locations/LOC_escenario_principal]]
+- Otras entidades:
 
 ## Propósito
 - 
